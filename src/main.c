@@ -33,6 +33,13 @@ uint32_t packet_receive=1;
 
 #define NEW(t) (t*)malloc(sizeof(t))
 
+bool waitForSending()
+{
+	const uint32_t oldTimer=tickcounter;
+	while((!packet_sent)&&(oldTimer==tickcounter));
+	return(packet_sent==0);
+}
+
 dequeNode* allocNode()
 {
 	int i;
@@ -85,30 +92,39 @@ dequeNode* dequeGet(deque* deq)
 	return(ret);
 }
 
-void sendDeque(deque* deq)
+bool sendDeque(deque* deq)
 {
 	dequeNode* current;
 	uint32_t size=0;
-	for(current=deq->head;current!=deq->tail;current=current->next)
+	//if(deq->head!=deq->tail)
 	{
 		size++;
 	}
 	CDC_Send_DATA(&size,4);
-	while(packet_sent!=1);
+	if(waitForSending())
+	{
+		return(1);
+	}
 	if(size)
 	{
-		for(current=dequeGet(deq);current!=deq->tail;current=dequeGet(deq))
+		//current=dequeGet(deq);
 		{
-
-			int i=0;
-		//	for(i=0;i<64;i++)
+			uint8_t buf[64];
+			for(int i=0;i<62;i++)
 			{
-				CDC_Send_DATA(&current->data[i],64);
-				while(packet_sent!=1);
+				buf[i]='A'+i;
 			}
-			freeNode(current);
+			buf[62]='\r';
+			buf[63]='\n';
+			CDC_Send_DATA(buf,64);
+			if(waitForSending())
+				{
+					return(1);
+				}
+			//freeNode(current);
 		}
 	}
+	return(0);
 }
 
 void init()
@@ -125,12 +141,12 @@ void init()
 
 }
 
-void sendString(const char* str)
+bool sendString(const char* str)
 {
 	int i;
 	for(i=0;str[i];i++);
 	CDC_Send_DATA(str,i);
-	while(!packet_sent);
+	return(waitForSending());
 }
 
 int main(void)
@@ -143,6 +159,8 @@ int main(void)
 	/* Configure the USB */
 	initUSB();
 
+	bool txError=0;
+
 	while ( 1 )
 	{
 		CDC_Receive_DATA();
@@ -152,30 +170,38 @@ int main(void)
 			{
 				case 'g':
 				{
+					if(txError)
+					{
+						uint32_t buf=0xEFFFFFFF;
+						CDC_Send_DATA(&buf,4);
+						txError|=waitForSending();
+						break;
+					}
 					if(overflow)
 					{
 						uint32_t buf=0xFFFFFFFF;
 						CDC_Send_DATA(&buf,4);
-						while(!packet_sent);
+						txError|=waitForSending();
+						break;
 					}
-					else
-					{
-						deque outDeq=deq;
-						sendDeque(&outDeq);
-						deq.head=outDeq.head;
-					}
+
+					deque outDeq=deq;
+					txError|=sendDeque(&outDeq);
+					deq.head=outDeq.head;
+
 					break;
 				}
 				case 'r':
 				{
 					init();
-					sendString("\r\nRESET\r\n");
+					txError=0;
+					txError|=sendString("\r\nRESET\r\n");
 				    break;
 				}
 				default:
 				{
 					CDC_Send_DATA(Receive_Buffer,Receive_length);
-					while(!packet_sent);
+					txError|=waitForSending();
 				}
 			}
 			Receive_length=0;
@@ -186,19 +212,19 @@ int main(void)
 
 void TimingDelay_Decrement(void)
 {
-	const uint32_t recpos=tickcounter&15;
-
-	uint32_t* pos=(uint32_t*)&deq.tail->data;
-
-	pos[recpos]=tickcounter;
-
-    if(recpos==15)
-    {
-    	dequeNode* current=allocNode();
-    	if(current)
-    	{
-    		dequeAdd(current);
-    	}
-    }
+//	const uint32_t recpos=tickcounter&15;
+//
+//	uint32_t* pos=(uint32_t*)&deq.tail->data;
+//
+//	pos[recpos]=tickcounter;
+//
+//    if(recpos==15)
+//    {
+//    	dequeNode* current=allocNode();
+//    	if(current)
+//    	{
+//    		dequeAdd(current);
+//    	}
+//    }
     tickcounter++;
 }

@@ -45,7 +45,7 @@ DEFINES 	= -DSTM32F3XX -DUSE_STDPERIPH_DRIVER
 
 # Set Compilation and Linking Flags
 CFLAGS 		= $(MCU) $(FPU) $(DEFINES) $(INCLUDES) \
-			-g -Wall -std=gnu90 -O0 -ffunction-sections -fdata-sections
+			-g -Wall -std=c99 -O0 -ffunction-sections -fdata-sections 
 ASFLAGS 	= $(MCU) $(FPU) -g -Wa,--warn -x assembler-with-cpp
 LDFLAGS 	= $(MCU) $(FPU) -g -gdwarf-2\
 			-Tstm32f30_flash.ld \
