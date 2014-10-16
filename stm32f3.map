@@ -1,0 +1,2805 @@
+Archive member included because of file (symbol)
+
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (exit)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (__libc_init_array)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (memset)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o) (__call_exitprocs)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o) (atexit)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+                              /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+SaveRState          0x2               Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+HSEStartUpStatus    0x1               src/hw_config.o
+SaveState           0x2               Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+Receive_length      0x4               src/usb_endp.o
+usedMem             0x4               src/main.o
+wIstr               0x2               src/usb_istr.o
+pProperty           0x4               Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+EPindex             0x1               Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+SaveTState          0x2               Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+Device_Info         0x1c              Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+pUser_Standard_Requests
+                    0x4               Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+Receive_Buffer      0x40              Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+deq                 0x8               src/main.o
+StatusInfo          0x2               Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+pInformation        0x4               Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ResumeS             0x2               src/usb_pwr.o
+EXTI_InitStructure  0x8               src/hw_config.o
+Send_Buffer         0x40              src/main.o
+Send_length         0x4               Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+wInterrupt_Mask     0x2               Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+ .data          0x00000000        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+ .text          0x00000000       0x74 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.extab     0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.exidx     0x00000000        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_DeInit
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_Init
+                0x00000000       0x68 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_StructInit
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_Cmd
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_SwitchCmd
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_GetOutputLevel
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_WindowCmd
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text.COMP_LockConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_info    0x00000000      0x2c8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_abbrev  0x00000000      0x123 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_aranges
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_ranges  0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_line    0x00000000      0x215 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_str     0x00000000      0x31b Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .debug_frame   0x00000000       0xf0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_DeInit
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_Init
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_StructInit
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_PGAConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_VrefConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_VrefConnectNonInvertingInput
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_VrefConnectADCCmd
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_TimerControlledMuxConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_TimerControlledMuxCmd
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_Cmd
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_GetOutputLevel
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_OffsetTrimModeSelect
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_OffsetTrimConfig
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_StartCalibration
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text.OPAMP_LockConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_info    0x00000000      0x440 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_abbrev  0x00000000      0x123 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_aranges
+                0x00000000       0x90 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_ranges  0x00000000       0x80 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_line    0x00000000      0x297 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_str     0x00000000      0x3f8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .debug_frame   0x00000000      0x1b4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_DeInit
+                0x00000000       0xec Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_Init
+                0x00000000       0x78 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_StructInit
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_WriteProtectionCmd
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_EnterInitMode
+                0x00000000       0x74 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_ExitInitMode
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_WaitForSynchro
+                0x00000000       0x88 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_RefClockCmd
+                0x00000000       0x68 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_BypassShadowCmd
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_SetTime
+                0x00000000      0x114 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TimeStructInit
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetTime
+                0x00000000       0x9c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetSubSecond
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_SetDate
+                0x00000000      0x120 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_DateStructInit
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetDate
+                0x00000000       0xa4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_SetAlarm
+                0x00000000      0x138 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_AlarmStructInit
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetAlarm
+                0x00000000       0xd8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_AlarmCmd
+                0x00000000       0x9c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_AlarmSubSecondConfig
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetAlarmSubSecond
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_WakeUpClockConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_SetWakeUpCounter
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetWakeUpCounter
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_WakeUpCmd
+                0x00000000       0x94 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_DayLightSavingConfig
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetStoreOperation
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_OutputConfig
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_CalibOutputCmd
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_CalibOutputConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_SmoothCalibConfig
+                0x00000000       0x84 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TimeStampCmd
+                0x00000000       0x60 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetTimeStamp
+                0x00000000      0x114 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetTimeStampSubSecond
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TamperTriggerConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TamperCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TamperFilterConfig
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TamperSamplingFreqConfig
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TamperPinsPrechargeDuration
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TimeStampOnTamperDetectionCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_TamperPullUpCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_WriteBackupRegister
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_ReadBackupRegister
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_OutputTypeConfig
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_SynchroShiftConfig
+                0x00000000       0x9c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_ITConfig
+                0x00000000       0x78 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetFlagStatus
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_ClearFlag
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_GetITStatus
+                0x00000000       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_ClearITPendingBit
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_ByteToBcd2
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text.RTC_Bcd2ToByte
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_info    0x00000000      0xfe2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_abbrev  0x00000000      0x1b0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_aranges
+                0x00000000      0x1c0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_ranges  0x00000000      0x1b0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_line    0x00000000      0x732 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_str     0x00000000      0xaf3 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .debug_frame   0x00000000      0x5f8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .text.DBGMCU_GetREVID
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .text.DBGMCU_GetDEVID
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .text.DBGMCU_Config
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .text.DBGMCU_APB1PeriphConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .text.DBGMCU_APB2PeriphConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_info    0x00000000      0x1e0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_abbrev  0x00000000       0xe0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_aranges
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_ranges  0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_line    0x00000000      0x18b Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_str     0x00000000      0x28b Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .debug_frame   0x00000000       0x94 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_DeInit
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_Init
+                0x00000000      0x1a4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_FilterInit
+                0x00000000      0x164 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_StructInit
+                0x00000000       0x54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_SlaveStartBank
+                0x00000000       0x60 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_DBGFreeze
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_TTComModeCmd
+                0x00000000       0x98 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_Transmit
+                0x00000000      0x190 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_TransmitStatus
+                0x00000000       0xd4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_CancelTransmit
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_Receive
+                0x00000000      0x170 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_FIFORelease
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_MessagePending
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_OperatingModeRequest
+                0x00000000       0xfc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_Sleep
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_WakeUp
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_GetLastErrorCode
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_GetReceiveErrorCounter
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_GetLSBTransmitErrorCounter
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_ITConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_GetFlagStatus
+                0x00000000       0xd0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_ClearFlag
+                0x00000000       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_GetITStatus
+                0x00000000      0x194 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CAN_ClearITPendingBit
+                0x00000000       0xdc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text.CheckITStatus
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_info    0x00000000      0xba0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_abbrev  0x00000000      0x1f5 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_aranges
+                0x00000000       0xe0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_ranges  0x00000000       0xd0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_line    0x00000000      0x4e2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_str     0x00000000      0x789 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .debug_frame   0x00000000      0x2d4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_DeInit
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_PVDCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_EnterSleepMode
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x64 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_GetFlagStatus
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text.PWR_ClearFlag
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_info    0x00000000      0x4e2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_abbrev  0x00000000      0x181 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_aranges
+                0x00000000       0x68 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_ranges  0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_line    0x00000000      0x228 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_str     0x00000000      0x3ad Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .debug_frame   0x00000000      0x124 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_DeInit
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_ResetDR
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_PolynomialSizeSelect
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_ReverseInputDataSelect
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_ReverseOutputDataCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_SetInitRegister
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_SetPolynomial
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_CalcCRC
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_CalcCRC16bits
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_CalcCRC8bits
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_CalcBlockCRC
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_GetCRC
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_SetIDRegister
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text.CRC_GetIDRegister
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_info    0x00000000      0x392 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_abbrev  0x00000000      0x180 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_aranges
+                0x00000000       0x88 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_ranges  0x00000000       0x78 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_line    0x00000000      0x248 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_str     0x00000000      0x3b3 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .debug_frame   0x00000000      0x188 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_Init
+                0x00000000       0xc8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_Cmd  0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_StopModeCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_SlaveByteControlCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_SlaveAddressConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_10BitAddressingModeCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_AutoEndCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ReloadCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_NumberOfBytesConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_MasterRequestConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_10BitAddressHeaderCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GetAddressMatched
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GetTransferDirection
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_TransferHandling
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_SMBusAlertCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ClockTimeoutCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ExtendedClockTimeoutCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_IdleClockTimeoutCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_TimeoutAConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_TimeoutBConfig
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_PECRequestCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GetPEC
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_SendData
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GetFlagStatus
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x80 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_info    0x00000000      0xbe2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_abbrev  0x00000000      0x180 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_aranges
+                0x00000000      0x168 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_ranges  0x00000000      0x158 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_line    0x00000000      0x4e7 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_str     0x00000000      0x6a2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .debug_frame   0x00000000      0x4ac Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x7c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_LSEDriveConfig
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_PREDIV1Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_I2CCLKConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_TIMCLKConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_USARTCLKConfig
+                0x00000000       0x98 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_AHBPeriphResetCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_SetLatency
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_HalfCycleAccessCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_PrefetchBufferCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_Unlock
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_Lock
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_ErasePage
+                0x00000000       0x64 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_EraseAllPages
+                0x00000000       0x5c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_ProgramWord
+                0x00000000       0x90 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_ProgramHalfWord
+                0x00000000       0x5c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_Unlock
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_Lock
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_Launch
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_Erase
+                0x00000000       0xbc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_EnableWRP
+                0x00000000       0xa8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_RDPConfig
+                0x00000000       0xb0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_UserConfig
+                0x00000000       0x90 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_BOOTConfig
+                0x00000000       0x7c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_VDDAConfig
+                0x00000000       0x7c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_SRAMParityConfig
+                0x00000000       0x68 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_WriteUser
+                0x00000000       0x7c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_ProgramOptionByteData
+                0x00000000       0x64 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_GetUser
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_GetWRP
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_OB_GetRDP
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_ITConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_GetFlagStatus
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_ClearFlag
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_GetStatus
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_info    0x00000000      0x7cf Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_abbrev  0x00000000      0x1b4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_aranges
+                0x00000000      0x100 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_ranges  0x00000000       0xf0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_line    0x00000000      0x436 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_str     0x00000000      0x5ec Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .debug_frame   0x00000000      0x358 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_DeInit
+                0x00000000      0x178 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_Init
+                0x00000000       0x80 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_Cmd  0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_ITConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000       0x54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_ClearFlag
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_GetITStatus
+                0x00000000       0x54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_info    0x00000000      0x477 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_abbrev  0x00000000      0x157 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_aranges
+                0x00000000       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_ranges  0x00000000       0x60 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_line    0x00000000      0x27d Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_str     0x00000000      0x412 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .debug_frame   0x00000000      0x144 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_DMAChannelRemapConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_TriggerRemapConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_EncoderRemapConfig
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_USBInterruptLineRemapCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_I2CFastModePlusConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_ITConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_BreakConfig
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_BypassParityCheckDisable
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_SRAMWRPEnable
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_GetFlagStatus
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text.SYSCFG_ClearFlag
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x5c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .text.EXTI_StructInit
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DeInit
+                0x00000000       0xb8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_Init
+                0x00000000      0x174 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_StructInit
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ClockInit
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ClockStructInit
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DirectionModeCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_MSBFirstCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DataInvCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_InvPinCmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SWAPPinCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ReceiverTimeOutCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetReceiverTimeOut
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_STOPModeCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_StopModeWakeUpSourceConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_AutoBaudRateCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_AutoBaudRateConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SendData
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ReceiveData
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetAddress
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_MuteModeCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_MuteModeWakeUpConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_AddressDetectionConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_LINCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetAutoRetryCount
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetBlockLength
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_IrDACmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DECmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DEPolarityConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetDEAssertionTime
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_SetDEDeassertionTime
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DMACmd
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_DMAReceptionErrorConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ITConfig
+                0x00000000       0x84 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_RequestCmd
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_OverrunDetectionConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_GetFlagStatus
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ClearFlag
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_GetITStatus
+                0x00000000       0xa0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_info    0x00000000      0xec0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_abbrev  0x00000000      0x157 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_aranges
+                0x00000000      0x1a0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_ranges  0x00000000      0x190 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_line    0x00000000      0x594 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_str     0x00000000      0xa54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .debug_frame   0x00000000      0x574 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_DeInit
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_Init
+                0x00000000       0x64 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_StructInit
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_Cmd  0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_SoftwareTriggerCmd
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_DualSoftwareTriggerCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_WaveGenerationCmd
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_SetChannel1Data
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_SetChannel2Data
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_SetDualChannelData
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_GetDataOutputValue
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_DMACmd
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_ITConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_GetFlagStatus
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_ClearFlag
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_GetITStatus
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text.DAC_ClearITPendingBit
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_info    0x00000000      0x63e Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_abbrev  0x00000000      0x17e Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_aranges
+                0x00000000       0xa0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_ranges  0x00000000       0x90 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_line    0x00000000      0x2d1 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_str     0x00000000      0x49e Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .debug_frame   0x00000000      0x1ec Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x148 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_TimeBaseInit
+                0x00000000       0xec Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCounter
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetCounter
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_UIFRemap
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_Cmd  0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC1Init
+                0x00000000      0x118 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC2Init
+                0x00000000      0x100 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC3Init
+                0x00000000       0xfc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC4Init
+                0x00000000       0xc0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC5Init
+                0x00000000       0xb8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC6Init
+                0x00000000       0xac Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectGC5C1
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectGC5C2
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectGC5C3
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000       0xa8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCompare1
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCompare2
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCompare3
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCompare4
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCompare5
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetCompare6
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ForcedOC5Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ForcedOC6Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC5PreloadConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC6PreloadConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearOC5Ref
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearOC6Ref
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectOCREFClear
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC5PolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_OC6PolarityConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_CCxCmd
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ICInit
+                0x00000000       0xa8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000       0xb8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetCapture1
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetCapture2
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetCapture3
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetCapture4
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_Break1Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_Break2Config
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_Break1Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_Break2Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ITConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearFlag
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_GetITStatus
+                0x00000000       0x54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ClearITPendingBit
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_DMAConfig
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_DMACmd
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectOutputTrigger2
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x8c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TIM_RemapConfig
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TI1_Config
+                0x00000000       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TI2_Config
+                0x00000000       0x88 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TI3_Config
+                0x00000000       0x80 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text.TI4_Config
+                0x00000000       0x90 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_info    0x00000000     0x2188 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_abbrev  0x00000000      0x189 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_aranges
+                0x00000000      0x3a8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_ranges  0x00000000      0x398 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_line    0x00000000      0xbb6 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_str     0x00000000      0xfcc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .debug_frame   0x00000000      0xca4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_WriteAccessCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_SetPrescaler
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_SetReload
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_ReloadCounter
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_SetWindowValue
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_Enable
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text.IWDG_GetFlagStatus
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_info    0x00000000      0x240 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_abbrev  0x00000000      0x112 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_aranges
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_ranges  0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_line    0x00000000      0x1ab Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_str     0x00000000      0x2dc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .debug_frame   0x00000000       0xcc Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_DeInit
+                0x00000000       0x64 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_Init
+                0x00000000       0x80 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_StructInit
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_InjectedInit
+                0x00000000       0x60 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_InjectedStructInit
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_CommonInit
+                0x00000000       0x9c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_CommonStructInit
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_Cmd  0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_StartCalibration
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetCalibrationValue
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SetCalibrationValue
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SelectCalibrationMode
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetCalibrationStatus
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_DisableCmd
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetDisableCmdStatus
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_VoltageRegulatorCmd
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SelectDifferentialMode
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SelectQueueOfContextMode
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AutoDelayCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdog1ThresholdsConfig
+                0x00000000       0x54 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdog2ThresholdsConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdog3ThresholdsConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdog1SingleChannelConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdog2SingleChannelConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AnalogWatchdog3SingleChannelConfig
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_TempSensorCmd
+                0x00000000       0x74 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_VrefintCmd
+                0x00000000       0x74 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_VbatCmd
+                0x00000000       0x74 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_RegularChannelConfig
+                0x00000000      0x1e4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_RegularChannelSequencerLengthConfig
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ExternalTriggerConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_StartConversion
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetStartConversionStatus
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_StopConversion
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_DiscModeCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetConversionValue
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetDualModeConversionValue
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SetChannelOffset1
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SetChannelOffset2
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SetChannelOffset3
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_SetChannelOffset4
+                0x00000000       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ChannelOffset1Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ChannelOffset2Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ChannelOffset3Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ChannelOffset4Cmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_DMACmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_DMAConfig
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x00000000       0xf4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ExternalTriggerInjectedConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_StartInjectedConversion
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_StopInjectedConversion
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetStartInjectedConversionStatus
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ITConfig
+                0x00000000       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetFlagStatus
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ClearFlag
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetCommonFlagStatus
+                0x00000000       0x60 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ClearCommonFlag
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_GetITStatus
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text.ADC_ClearITPendingBit
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_info    0x00000000     0x13c1 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_abbrev  0x00000000      0x192 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_aranges
+                0x00000000      0x220 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_ranges  0x00000000      0x210 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_line    0x00000000      0x771 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_str     0x00000000      0xc0a Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .debug_frame   0x00000000      0x730 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_DeInit
+                0x00000000       0x74 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x4c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_Init
+                0x00000000      0x114 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.I2S_StructInit
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.I2S_Init
+                0x00000000      0x178 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_Cmd  0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.I2S_Cmd  0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_RxFIFOThresholdConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.I2S_FullDuplexConfig
+                0x00000000       0x9c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_NSSPulseModeCmd
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_SendData8
+                0x00000000       0x2c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_SendData16
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_ReceiveData8
+                0x00000000       0x28 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_ReceiveData16
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_CRCLengthConfig
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_GetCRC
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_DMACmd
+                0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_LastDMATransferCmd
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0x60 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_GetTransmissionFIFOStatus
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_GetReceptionFIFOStatus
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x78 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_info    0x00000000      0xb76 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_abbrev  0x00000000      0x18b Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_aranges
+                0x00000000      0x118 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_ranges  0x00000000      0x108 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_line    0x00000000      0x471 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_str     0x00000000      0x81c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .debug_frame   0x00000000      0x398 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xd4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .text          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .data          0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .bss           0x00000000        0x0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_DeInit
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_SetPrescaler
+                0x00000000       0x34 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_SetWindowValue
+                0x00000000       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_EnableIT
+                0x00000000       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_SetCounter
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_Enable
+                0x00000000       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_GetFlagStatus
+                0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text.WWDG_ClearFlag
+                0x00000000       0x18 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_info    0x00000000      0x25e Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_abbrev  0x00000000      0x142 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_aranges
+                0x00000000       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_ranges  0x00000000       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_line    0x00000000      0x1c4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_str     0x00000000      0x2d6 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .ARM.attributes
+                0x00000000       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .debug_frame   0x00000000       0xe8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+ .text          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .data          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .bss           0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .text          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .data          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .bss           0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .text          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .data          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .bss           0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .text.USB_SIL_Write
+                0x00000000       0x4c Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .text.USB_SIL_Read
+                0x00000000       0x4c Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .text          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .data          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .bss           0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .text          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .data          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .bss           0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetCNTR  0x00000000       0x20 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetCNTR  0x00000000       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetISTR  0x00000000       0x20 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetISTR  0x00000000       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetFNR   0x00000000       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetDADDR
+                0x00000000       0x20 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetDADDR
+                0x00000000       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetBTABLE
+                0x00000000       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetENDPOINT
+                0x00000000       0x28 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetENDPOINT
+                0x00000000       0x28 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPType
+                0x00000000       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetDouBleBuffEPStall
+                0x00000000       0x58 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPTxStatus
+                0x00000000       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPRxStatus
+                0x00000000       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEP_KIND
+                0x00000000       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ClearEP_KIND
+                0x00000000       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.Set_Status_Out
+                0x00000000       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDoubleBuff
+                0x00000000       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ClearEPDoubleBuff
+                0x00000000       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetTxStallStatus
+                0x00000000       0x34 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetRxStallStatus
+                0x00000000       0x38 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ClearEP_CTR_RX
+                0x00000000       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ClearEP_CTR_TX
+                0x00000000       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ToggleDTOG_RX
+                0x00000000       0x44 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ToggleDTOG_TX
+                0x00000000       0x44 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPAddress
+                0x00000000       0x4c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPAddress
+                0x00000000       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPCountRxReg
+                0x00000000       0x64 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPTxCount
+                0x00000000       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDblBuffAddr
+                0x00000000       0x64 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDblBuf0Addr
+                0x00000000       0x40 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDblBuf1Addr
+                0x00000000       0x40 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPDblBuf0Addr
+                0x00000000       0x38 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPDblBuf1Addr
+                0x00000000       0x38 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDblBuffCount
+                0x00000000      0x138 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDblBuf0Count
+                0x00000000       0xac Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.SetEPDblBuf1Count
+                0x00000000       0xac Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPDblBuf0Count
+                0x00000000       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPDblBuf1Count
+                0x00000000       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.GetEPDblBufDir
+                0x00000000       0x6c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.FreeUserBuffer
+                0x00000000       0x84 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text.ToWord   0x00000000       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .text          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .data          0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .bss           0x00000000        0x0 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .text.CTR_HP   0x00000000       0xf0 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .text          0x00000000        0x0 src/usb_desc.o
+ .data          0x00000000        0x0 src/usb_desc.o
+ .bss           0x00000000        0x0 src/usb_desc.o
+ .text          0x00000000        0x0 src/usb_endp.o
+ .data          0x00000000        0x0 src/usb_endp.o
+ .bss           0x00000000        0x0 src/usb_endp.o
+ .text          0x00000000        0x0 src/hw_config.o
+ .data          0x00000000        0x0 src/hw_config.o
+ .bss           0x00000000        0x0 src/hw_config.o
+ .text.GPIO_AINConfig
+                0x00000000       0x54 src/hw_config.o
+ .text          0x00000000        0x0 src/stm32f3_discovery_l3gd20.o
+ .data          0x00000000        0x0 src/stm32f3_discovery_l3gd20.o
+ .bss           0x00000000        0x0 src/stm32f3_discovery_l3gd20.o
+ .data.L3GD20Timeout
+                0x00000000        0x4 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_Init
+                0x00000000       0x78 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_RebootCmd
+                0x00000000       0x30 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_INT1InterruptConfig
+                0x00000000       0x84 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_INT1InterruptCmd
+                0x00000000       0x40 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_INT2InterruptCmd
+                0x00000000       0x40 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_FilterConfig
+                0x00000000       0x48 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_FilterCmd
+                0x00000000       0x40 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_GetDataStatus
+                0x00000000       0x1c src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_Write
+                0x00000000       0x60 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_Read
+                0x00000000       0x6c src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_LowLevel_Init
+                0x00000000      0x150 src/stm32f3_discovery_l3gd20.o
+ .text.L3GD20_SendByte
+                0x00000000       0x8c src/stm32f3_discovery_l3gd20.o
+ .debug_info    0x00000000      0x7cb src/stm32f3_discovery_l3gd20.o
+ .debug_abbrev  0x00000000      0x1b9 src/stm32f3_discovery_l3gd20.o
+ .debug_aranges
+                0x00000000       0x78 src/stm32f3_discovery_l3gd20.o
+ .debug_ranges  0x00000000       0x68 src/stm32f3_discovery_l3gd20.o
+ .debug_line    0x00000000      0x2e6 src/stm32f3_discovery_l3gd20.o
+ .debug_str     0x00000000      0x74f src/stm32f3_discovery_l3gd20.o
+ .comment       0x00000000       0x71 src/stm32f3_discovery_l3gd20.o
+ .ARM.attributes
+                0x00000000       0x37 src/stm32f3_discovery_l3gd20.o
+ .debug_frame   0x00000000      0x190 src/stm32f3_discovery_l3gd20.o
+ .text          0x00000000        0x0 src/usb_prop.o
+ .data          0x00000000        0x0 src/usb_prop.o
+ .bss           0x00000000        0x0 src/usb_prop.o
+ .text          0x00000000        0x0 src/stm32f3_discovery.o
+ .data          0x00000000        0x0 src/stm32f3_discovery.o
+ .bss           0x00000000        0x0 src/stm32f3_discovery.o
+ .data.GPIO_PORT
+                0x00000000       0x20 src/stm32f3_discovery.o
+ .rodata.GPIO_PIN
+                0x00000000       0x10 src/stm32f3_discovery.o
+ .rodata.GPIO_CLK
+                0x00000000       0x20 src/stm32f3_discovery.o
+ .rodata.BUTTON_PIN
+                0x00000000        0x4 src/stm32f3_discovery.o
+ .rodata.BUTTON_CLK
+                0x00000000        0x4 src/stm32f3_discovery.o
+ .rodata.BUTTON_EXTI_LINE
+                0x00000000        0x4 src/stm32f3_discovery.o
+ .rodata.BUTTON_PORT_SOURCE
+                0x00000000        0x4 src/stm32f3_discovery.o
+ .rodata.BUTTON_PIN_SOURCE
+                0x00000000        0x4 src/stm32f3_discovery.o
+ .rodata.BUTTON_IRQn
+                0x00000000        0x4 src/stm32f3_discovery.o
+ .text.STM_EVAL_LEDInit
+                0x00000000       0x5c src/stm32f3_discovery.o
+ .text.STM_EVAL_LEDOn
+                0x00000000       0x30 src/stm32f3_discovery.o
+ .text.STM_EVAL_LEDOff
+                0x00000000       0x30 src/stm32f3_discovery.o
+ .text.STM_EVAL_LEDToggle
+                0x00000000       0x40 src/stm32f3_discovery.o
+ .text          0x00000000        0x0 src/stm32f3_discovery_lsm303dlhc.o
+ .data          0x00000000        0x0 src/stm32f3_discovery_lsm303dlhc.o
+ .bss           0x00000000        0x0 src/stm32f3_discovery_lsm303dlhc.o
+ .data.LSM303DLHC_Timeout
+                0x00000000        0x4 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccInit
+                0x00000000       0x78 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccRebootCmd
+                0x00000000       0x30 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccFilterConfig
+                0x00000000       0x5c src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccFilterCmd
+                0x00000000       0x44 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccFilterClickCmd
+                0x00000000       0x44 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccIT1Config
+                0x00000000       0x64 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccIT2Config
+                0x00000000       0x64 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccINT1InterruptConfig
+                0x00000000       0x5c src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccINT2InterruptConfig
+                0x00000000       0x5c src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccClickITConfig
+                0x00000000       0x4c src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_AccGetDataStatus
+                0x00000000       0x20 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_MagInit
+                0x00000000       0x74 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_MagGetDataStatus
+                0x00000000       0x20 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_Write
+                0x00000000      0x160 src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_Read
+                0x00000000      0x18c src/stm32f3_discovery_lsm303dlhc.o
+ .text.LSM303DLHC_LowLevel_Init
+                0x00000000      0x150 src/stm32f3_discovery_lsm303dlhc.o
+ .debug_info    0x00000000      0x989 src/stm32f3_discovery_lsm303dlhc.o
+ .debug_abbrev  0x00000000      0x19f src/stm32f3_discovery_lsm303dlhc.o
+ .debug_aranges
+                0x00000000       0x98 src/stm32f3_discovery_lsm303dlhc.o
+ .debug_ranges  0x00000000       0x88 src/stm32f3_discovery_lsm303dlhc.o
+ .debug_line    0x00000000      0x3d4 src/stm32f3_discovery_lsm303dlhc.o
+ .debug_str     0x00000000      0x93b src/stm32f3_discovery_lsm303dlhc.o
+ .comment       0x00000000       0x71 src/stm32f3_discovery_lsm303dlhc.o
+ .ARM.attributes
+                0x00000000       0x37 src/stm32f3_discovery_lsm303dlhc.o
+ .debug_frame   0x00000000      0x210 src/stm32f3_discovery_lsm303dlhc.o
+ .text          0x00000000        0x0 src/main.o
+ .data          0x00000000        0x0 src/main.o
+ .bss           0x00000000        0x0 src/main.o
+ .bss.bufferOut
+                0x00000000        0x4 src/main.o
+ .bss.recpos    0x00000000        0x4 src/main.o
+ .bss.allowed   0x00000000        0x1 src/main.o
+ .text.LSM303DLHC_TIMEOUT_UserCallback
+                0x00000000       0x10 src/main.o
+ .text          0x00000000        0x0 src/stm32f30x_it.o
+ .data          0x00000000        0x0 src/stm32f30x_it.o
+ .bss           0x00000000        0x0 src/stm32f30x_it.o
+ .text          0x00000000        0x0 src/usb_istr.o
+ .data          0x00000000        0x0 src/usb_istr.o
+ .bss           0x00000000        0x0 src/usb_istr.o
+ .text          0x00000000        0x0 src/system_stm32f30x.o
+ .data          0x00000000        0x0 src/system_stm32f30x.o
+ .bss           0x00000000        0x0 src/system_stm32f30x.o
+ .data.SystemCoreClock
+                0x00000000        0x4 src/system_stm32f30x.o
+ .data.AHBPrescTable
+                0x00000000       0x10 src/system_stm32f30x.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xd4 src/system_stm32f30x.o
+ .text          0x00000000        0x0 src/usb_pwr.o
+ .data          0x00000000        0x0 src/usb_pwr.o
+ .bss           0x00000000        0x0 src/usb_pwr.o
+ .text.PowerOff
+                0x00000000       0x2c src/usb_pwr.o
+ .text          0x00000000       0x14 src/startup_stm32f30x.o
+ .data          0x00000000        0x0 src/startup_stm32f30x.o
+ .bss           0x00000000        0x0 src/startup_stm32f30x.o
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x94 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x2c /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xf0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+ .eh_frame      0x00000000        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+ .jcr           0x00000000        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+ .ARM.attributes
+                0x00000000       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+ .text          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+ .data          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+ .bss           0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00040000         xr
+RAM              0x20000000         0x0000a000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+CCMRAM           0x10000000         0x00002000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_comp.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_opamp.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rtc.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dbgmcu.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_can.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_pwr.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_crc.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_i2c.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_usart.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dac.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_tim.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_iwdg.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_spi.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+LOAD Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_wwdg.o
+LOAD Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+LOAD Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+LOAD Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+LOAD Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+LOAD Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+LOAD Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+LOAD src/usb_desc.o
+LOAD src/usb_endp.o
+LOAD src/hw_config.o
+LOAD src/stm32f3_discovery_l3gd20.o
+LOAD src/usb_prop.o
+LOAD src/stm32f3_discovery.o
+LOAD src/stm32f3_discovery_lsm303dlhc.o
+LOAD src/main.o
+LOAD src/stm32f30x_it.o
+LOAD src/usb_istr.o
+LOAD src/system_stm32f30x.o
+LOAD src/usb_pwr.o
+LOAD src/startup_stm32f30x.o
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libm.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a
+START GROUP
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a
+END GROUP
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtend.o
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+                0x2000a000                _estack = 0x2000a000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000200                _Min_Stack_Size = 0x200
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 src/startup_stm32f30x.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188     0x3918
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0x54 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+ *(.text*)
+ .text.NVIC_PriorityGroupConfig
+                0x080001dc       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+                0x080001dc                NVIC_PriorityGroupConfig
+ .text.NVIC_Init
+                0x08000200       0xc0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+                0x08000200                NVIC_Init
+ .text.RCC_HSEConfig
+                0x080002c0       0x24 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x080002c0                RCC_HSEConfig
+ .text.RCC_WaitForHSEStartUp
+                0x080002e4       0x50 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x080002e4                RCC_WaitForHSEStartUp
+ .text.RCC_PLLCmd
+                0x08000334       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x08000334                RCC_PLLCmd
+ .text.RCC_SYSCLKConfig
+                0x08000354       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x08000354                RCC_SYSCLKConfig
+ .text.RCC_GetSYSCLKSource
+                0x0800038c       0x20 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x0800038c                RCC_GetSYSCLKSource
+ .text.RCC_GetClocksFreq
+                0x080003ac      0x414 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x080003ac                RCC_GetClocksFreq
+ .text.RCC_USBCLKConfig
+                0x080007c0       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x080007c0                RCC_USBCLKConfig
+ .text.RCC_AHBPeriphClockCmd
+                0x080007dc       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x080007dc                RCC_AHBPeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08000818       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x08000818                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08000854       0x3c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x08000854                RCC_APB1PeriphClockCmd
+ .text.RCC_GetFlagStatus
+                0x08000890       0x84 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x08000890                RCC_GetFlagStatus
+ .text.SYSCFG_EXTILineConfig
+                0x08000914       0x7c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+                0x08000914                SYSCFG_EXTILineConfig
+ .text.EXTI_Init
+                0x08000990      0x1f4 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+                0x08000990                EXTI_Init
+ .text.EXTI_GetITStatus
+                0x08000b84       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+                0x08000b84                EXTI_GetITStatus
+ .text.EXTI_ClearITPendingBit
+                0x08000bf4       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+                0x08000bf4                EXTI_ClearITPendingBit
+ .text.GPIO_Init
+                0x08000c24      0x128 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x08000c24                GPIO_Init
+ .text.GPIO_ReadInputDataBit
+                0x08000d4c       0x38 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x08000d4c                GPIO_ReadInputDataBit
+ .text.GPIO_SetBits
+                0x08000d84       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x08000d84                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x08000da0       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x08000da0                GPIO_ResetBits
+ .text.GPIO_PinAFConfig
+                0x08000dbc       0x8c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x08000dbc                GPIO_PinAFConfig
+ .text.UserToPMABufferCopy
+                0x08000e48       0x74 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+                0x08000e48                UserToPMABufferCopy
+ .text.PMAToUserBufferCopy
+                0x08000ebc       0x5c Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+                0x08000ebc                PMAToUserBufferCopy
+ .text.USB_Init
+                0x08000f18       0x40 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+                0x08000f18                USB_Init
+ .text.USB_SIL_Init
+                0x08000f58       0x34 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+                0x08000f58                USB_SIL_Init
+ .text.Standard_GetConfiguration
+                0x08000f8c       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08000f8c                Standard_GetConfiguration
+ .text.Standard_SetConfiguration
+                0x08000fc8       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08000fc8                Standard_SetConfiguration
+ .text.Standard_GetInterface
+                0x08001018       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001018                Standard_GetInterface
+ .text.Standard_SetInterface
+                0x08001054       0x8c Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001054                Standard_SetInterface
+ .text.Standard_GetStatus
+                0x080010e0      0x138 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x080010e0                Standard_GetStatus
+ .text.Standard_ClearFeature
+                0x08001218      0x1d8 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001218                Standard_ClearFeature
+ .text.Standard_SetEndPointFeature
+                0x080013f0      0x118 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x080013f0                Standard_SetEndPointFeature
+ .text.Standard_SetDeviceFeature
+                0x08001508       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001508                Standard_SetDeviceFeature
+ .text.Standard_GetDescriptorData
+                0x08001534       0x48 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001534                Standard_GetDescriptorData
+ .text.DataStageOut
+                0x0800157c      0x104 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .text.DataStageIn
+                0x08001680      0x10c Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .text.NoData_Setup0
+                0x0800178c      0x194 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .text.Data_Setup0
+                0x08001920      0x324 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .text.Setup0_Process
+                0x08001c44       0xd8 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001c44                Setup0_Process
+ .text.In0_Process
+                0x08001d1c       0x90 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001d1c                In0_Process
+ .text.Out0_Process
+                0x08001dac       0x74 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001dac                Out0_Process
+ .text.Post0_Process
+                0x08001e20       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001e20                Post0_Process
+ .text.SetDeviceAddress
+                0x08001e70       0x7c Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001e70                SetDeviceAddress
+ .text.NOP_Process
+                0x08001eec        0xc Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x08001eec                NOP_Process
+ .text.SetBTABLE
+                0x08001ef8       0x24 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08001ef8                SetBTABLE
+ .text.SetEPType
+                0x08001f1c       0x48 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08001f1c                SetEPType
+ .text.SetEPTxStatus
+                0x08001f64       0x6c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08001f64                SetEPTxStatus
+ .text.SetEPRxStatus
+                0x08001fd0       0x6c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08001fd0                SetEPRxStatus
+ .text.SetEPTxValid
+                0x0800203c       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0800203c                SetEPTxValid
+ .text.SetEPRxValid
+                0x0800208c       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0800208c                SetEPRxValid
+ .text.Clear_Status_Out
+                0x080020dc       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x080020dc                Clear_Status_Out
+ .text.ClearDTOG_RX
+                0x0800212c       0x5c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0800212c                ClearDTOG_RX
+ .text.ClearDTOG_TX
+                0x08002188       0x5c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08002188                ClearDTOG_TX
+ .text.SetEPTxAddr
+                0x080021e4       0x40 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x080021e4                SetEPTxAddr
+ .text.SetEPRxAddr
+                0x08002224       0x40 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08002224                SetEPRxAddr
+ .text.GetEPTxAddr
+                0x08002264       0x38 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08002264                GetEPTxAddr
+ .text.GetEPRxAddr
+                0x0800229c       0x38 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0800229c                GetEPRxAddr
+ .text.SetEPTxCount
+                0x080022d4       0x38 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x080022d4                SetEPTxCount
+ .text.SetEPRxCount
+                0x0800230c       0x84 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0800230c                SetEPRxCount
+ .text.GetEPRxCount
+                0x08002390       0x3c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x08002390                GetEPRxCount
+ .text.ByteSwap
+                0x080023cc       0x30 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x080023cc                ByteSwap
+ .text.CTR_LP   0x080023fc      0x308 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+                0x080023fc                CTR_LP
+ .text.EP1_IN_Callback
+                0x08002704       0x18 src/usb_endp.o
+                0x08002704                EP1_IN_Callback
+ .text.EP3_OUT_Callback
+                0x0800271c       0x38 src/usb_endp.o
+                0x0800271c                EP3_OUT_Callback
+ .text.Set_System
+                0x08002754       0xa4 src/hw_config.o
+                0x08002754                Set_System
+ .text.Set_USBClock
+                0x080027f8       0x18 src/hw_config.o
+                0x080027f8                Set_USBClock
+ .text.Enter_LowPowerMode
+                0x08002810       0x18 src/hw_config.o
+                0x08002810                Enter_LowPowerMode
+ .text.Leave_LowPowerMode
+                0x08002828       0x78 src/hw_config.o
+                0x08002828                Leave_LowPowerMode
+ .text.USB_Interrupts_Config
+                0x080028a0       0x50 src/hw_config.o
+                0x080028a0                USB_Interrupts_Config
+ .text.USB_Cable_Config
+                0x080028f0       0x30 src/hw_config.o
+                0x080028f0                USB_Cable_Config
+ .text.Get_SerialNum
+                0x08002920       0x54 src/hw_config.o
+                0x08002920                Get_SerialNum
+ .text.IntToUnicode
+                0x08002974       0x78 src/hw_config.o
+ .text.CDC_Send_DATA
+                0x080029ec       0x4c src/hw_config.o
+                0x080029ec                CDC_Send_DATA
+ .text.CDC_Receive_DATA
+                0x08002a38       0x1c src/hw_config.o
+                0x08002a38                CDC_Receive_DATA
+ .text.Virtual_Com_Port_init
+                0x08002a54       0x28 src/usb_prop.o
+                0x08002a54                Virtual_Com_Port_init
+ .text.Virtual_Com_Port_Reset
+                0x08002a7c       0xf0 src/usb_prop.o
+                0x08002a7c                Virtual_Com_Port_Reset
+ .text.Virtual_Com_Port_SetConfiguration
+                0x08002b6c       0x2c src/usb_prop.o
+                0x08002b6c                Virtual_Com_Port_SetConfiguration
+ .text.Virtual_Com_Port_SetDeviceAddress
+                0x08002b98       0x18 src/usb_prop.o
+                0x08002b98                Virtual_Com_Port_SetDeviceAddress
+ .text.Virtual_Com_Port_Status_In
+                0x08002bb0       0x20 src/usb_prop.o
+                0x08002bb0                Virtual_Com_Port_Status_In
+ .text.Virtual_Com_Port_Status_Out
+                0x08002bd0        0xc src/usb_prop.o
+                0x08002bd0                Virtual_Com_Port_Status_Out
+ .text.Virtual_Com_Port_Data_Setup
+                0x08002bdc       0x80 src/usb_prop.o
+                0x08002bdc                Virtual_Com_Port_Data_Setup
+ .text.Virtual_Com_Port_NoData_Setup
+                0x08002c5c       0x40 src/usb_prop.o
+                0x08002c5c                Virtual_Com_Port_NoData_Setup
+ .text.Virtual_Com_Port_GetDeviceDescriptor
+                0x08002c9c       0x24 src/usb_prop.o
+                0x08002c9c                Virtual_Com_Port_GetDeviceDescriptor
+ .text.Virtual_Com_Port_GetConfigDescriptor
+                0x08002cc0       0x24 src/usb_prop.o
+                0x08002cc0                Virtual_Com_Port_GetConfigDescriptor
+ .text.Virtual_Com_Port_GetStringDescriptor
+                0x08002ce4       0x40 src/usb_prop.o
+                0x08002ce4                Virtual_Com_Port_GetStringDescriptor
+ .text.Virtual_Com_Port_Get_Interface_Setting
+                0x08002d24       0x30 src/usb_prop.o
+                0x08002d24                Virtual_Com_Port_Get_Interface_Setting
+ .text.Virtual_Com_Port_GetLineCoding
+                0x08002d54       0x34 src/usb_prop.o
+                0x08002d54                Virtual_Com_Port_GetLineCoding
+ .text.Virtual_Com_Port_SetLineCoding
+                0x08002d88       0x34 src/usb_prop.o
+                0x08002d88                Virtual_Com_Port_SetLineCoding
+ .text.STM_EVAL_PBInit
+                0x08002dbc       0x94 src/stm32f3_discovery.o
+                0x08002dbc                STM_EVAL_PBInit
+ .text.STM_EVAL_PBGetState
+                0x08002e50       0x2c src/stm32f3_discovery.o
+                0x08002e50                STM_EVAL_PBGetState
+ .text.NVIC_SetPriority
+                0x08002e7c       0x54 src/main.o
+ .text.SysTick_Config
+                0x08002ed0       0x44 src/main.o
+ .text.allocNode
+                0x08002f14       0x70 src/main.o
+                0x08002f14                allocNode
+ .text.freeNode
+                0x08002f84       0x44 src/main.o
+                0x08002f84                freeNode
+ .text.initUSB  0x08002fc8       0x30 src/main.o
+                0x08002fc8                initUSB
+ .text.dequeAdd
+                0x08002ff8       0x24 src/main.o
+                0x08002ff8                dequeAdd
+ .text.dequeGet
+                0x0800301c       0x28 src/main.o
+                0x0800301c                dequeGet
+ .text.sendDeque
+                0x08003044       0x90 src/main.o
+                0x08003044                sendDeque
+ .text.init     0x080030d4       0x58 src/main.o
+                0x080030d4                init
+ .text.sendString
+                0x0800312c       0x40 src/main.o
+                0x0800312c                sendString
+ .text.main     0x0800316c       0xd0 src/main.o
+                0x0800316c                main
+ .text.TimingDelay_Decrement
+                0x0800323c       0x54 src/main.o
+                0x0800323c                TimingDelay_Decrement
+ .text.NMI_Handler
+                0x08003290        0xc src/stm32f30x_it.o
+                0x08003290                NMI_Handler
+ .text.HardFault_Handler
+                0x0800329c        0x8 src/stm32f30x_it.o
+                0x0800329c                HardFault_Handler
+ .text.MemManage_Handler
+                0x080032a4        0x8 src/stm32f30x_it.o
+                0x080032a4                MemManage_Handler
+ .text.BusFault_Handler
+                0x080032ac        0x8 src/stm32f30x_it.o
+                0x080032ac                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080032b4        0x8 src/stm32f30x_it.o
+                0x080032b4                UsageFault_Handler
+ .text.SVC_Handler
+                0x080032bc        0xc src/stm32f30x_it.o
+                0x080032bc                SVC_Handler
+ .text.DebugMon_Handler
+                0x080032c8        0xc src/stm32f30x_it.o
+                0x080032c8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x080032d4        0xc src/stm32f30x_it.o
+                0x080032d4                PendSV_Handler
+ .text.SysTick_Handler
+                0x080032e0       0x48 src/stm32f30x_it.o
+                0x080032e0                SysTick_Handler
+ .text.EXTI0_IRQHandler
+                0x08003328       0x90 src/stm32f30x_it.o
+                0x08003328                EXTI0_IRQHandler
+ .text.USB_LP_CAN1_RX0_IRQHandler
+                0x080033b8        0xc src/stm32f30x_it.o
+                0x080033b8                USB_LP_CAN1_RX0_IRQHandler
+ .text.USBWakeUp_IRQHandler
+                0x080033c4       0x14 src/stm32f30x_it.o
+                0x080033c4                USBWakeUp_IRQHandler
+ .text.USB_Istr
+                0x080033d8      0x120 src/usb_istr.o
+                0x080033d8                USB_Istr
+ .text.SystemInit
+                0x080034f8       0x90 src/system_stm32f30x.o
+                0x080034f8                SystemInit
+ .text.SetSysClock
+                0x08003588       0xe0 src/system_stm32f30x.o
+ .text.PowerOn  0x08003668       0x50 src/usb_pwr.o
+                0x08003668                PowerOn
+ .text.Suspend  0x080036b8       0x3c src/usb_pwr.o
+                0x080036b8                Suspend
+ .text.Resume_Init
+                0x080036f4       0x30 src/usb_pwr.o
+                0x080036f4                Resume_Init
+ .text.Resume   0x08003724       0xf8 src/usb_pwr.o
+                0x08003724                Resume
+ .text.Reset_Handler
+                0x0800381c       0x54 src/startup_stm32f30x.o
+                0x0800381c                Reset_Handler
+ .text.Default_Handler
+                0x08003870        0x4 src/startup_stm32f30x.o
+                0x08003870                RTC_Alarm_IRQHandler
+                0x08003870                TIM8_TRG_COM_IRQHandler
+                0x08003870                TIM8_CC_IRQHandler
+                0x08003870                TIM1_CC_IRQHandler
+                0x08003870                USB_HP_IRQHandler
+                0x08003870                PVD_IRQHandler
+                0x08003870                EXTI3_IRQHandler
+                0x08003870                I2C2_EV_IRQHandler
+                0x08003870                FPU_IRQHandler
+                0x08003870                EXTI2_TS_IRQHandler
+                0x08003870                TIM1_UP_TIM16_IRQHandler
+                0x08003870                ADC1_2_IRQHandler
+                0x08003870                SPI1_IRQHandler
+                0x08003870                TIM6_DAC_IRQHandler
+                0x08003870                TIM8_UP_IRQHandler
+                0x08003870                DMA2_Channel2_IRQHandler
+                0x08003870                DMA1_Channel4_IRQHandler
+                0x08003870                USART3_IRQHandler
+                0x08003870                DMA1_Channel7_IRQHandler
+                0x08003870                CAN1_RX1_IRQHandler
+                0x08003870                UART5_IRQHandler
+                0x08003870                ADC3_IRQHandler
+                0x08003870                TIM4_IRQHandler
+                0x08003870                DMA2_Channel1_IRQHandler
+                0x08003870                I2C1_EV_IRQHandler
+                0x08003870                DMA1_Channel6_IRQHandler
+                0x08003870                UART4_IRQHandler
+                0x08003870                DMA2_Channel4_IRQHandler
+                0x08003870                TIM3_IRQHandler
+                0x08003870                RCC_IRQHandler
+                0x08003870                DMA1_Channel1_IRQHandler
+                0x08003870                Default_Handler
+                0x08003870                USBWakeUp_RMP_IRQHandler
+                0x08003870                EXTI15_10_IRQHandler
+                0x08003870                TIM7_IRQHandler
+                0x08003870                EXTI9_5_IRQHandler
+                0x08003870                TAMPER_STAMP_IRQHandler
+                0x08003870                RTC_WKUP_IRQHandler
+                0x08003870                SPI2_IRQHandler
+                0x08003870                DMA2_Channel5_IRQHandler
+                0x08003870                DMA1_Channel5_IRQHandler
+                0x08003870                USB_LP_IRQHandler
+                0x08003870                EXTI4_IRQHandler
+                0x08003870                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08003870                USB_HP_CAN1_TX_IRQHandler
+                0x08003870                DMA1_Channel3_IRQHandler
+                0x08003870                ADC4_IRQHandler
+                0x08003870                WWDG_IRQHandler
+                0x08003870                TIM2_IRQHandler
+                0x08003870                COMP7_IRQHandler
+                0x08003870                COMP1_2_3_IRQHandler
+                0x08003870                EXTI1_IRQHandler
+                0x08003870                USART2_IRQHandler
+                0x08003870                COMP4_5_6_IRQHandler
+                0x08003870                I2C2_ER_IRQHandler
+                0x08003870                DMA1_Channel2_IRQHandler
+                0x08003870                TIM8_BRK_IRQHandler
+                0x08003870                CAN1_SCE_IRQHandler
+                0x08003870                FLASH_IRQHandler
+                0x08003870                USART1_IRQHandler
+                0x08003870                SPI3_IRQHandler
+                0x08003870                I2C1_ER_IRQHandler
+                0x08003870                DMA2_Channel3_IRQHandler
+                0x08003870                TIM1_BRK_TIM15_IRQHandler
+ .text.__libc_init_array
+                0x08003874       0x50 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+                0x08003874                __libc_init_array
+ .text.startup.register_fini
+                0x080038c4       0x14 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080038d8        0xc /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+                0x080038d8                atexit
+ .text.__libc_fini_array
+                0x080038e4       0x30 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+                0x080038e4                __libc_fini_array
+ .text.__register_exitproc
+                0x08003914       0xa8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+                0x08003914                __register_exitproc
+ *(.rodata)
+ .rodata        0x080039bc        0xc src/main.o
+ *(.rodata*)
+ .rodata.Virtual_Com_Port_DeviceDescriptor
+                0x080039c8       0x14 src/usb_desc.o
+                0x080039c8                Virtual_Com_Port_DeviceDescriptor
+ .rodata.Virtual_Com_Port_ConfigDescriptor
+                0x080039dc       0x44 src/usb_desc.o
+                0x080039dc                Virtual_Com_Port_ConfigDescriptor
+ .rodata.Virtual_Com_Port_StringLangID
+                0x08003a20        0x4 src/usb_desc.o
+                0x08003a20                Virtual_Com_Port_StringLangID
+ .rodata.Virtual_Com_Port_StringVendor
+                0x08003a24       0x28 src/usb_desc.o
+                0x08003a24                Virtual_Com_Port_StringVendor
+ .rodata.Virtual_Com_Port_StringProduct
+                0x08003a4c       0x34 src/usb_desc.o
+                0x08003a4c                Virtual_Com_Port_StringProduct
+ .rodata.str1.4
+                0x08003a80        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x08003a84        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                0x08003a84                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08003a88        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+ *(.init)
+ .init          0x08003a88        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+                0x08003a88                _init
+ .init          0x08003a8c        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+ *(.fini)
+ .fini          0x08003a94        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+                0x08003a94                _fini
+ .fini          0x08003a98        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+                0x08003aa0                . = ALIGN (0x4)
+                0x08003aa0                _etext = .
+
+.vfp11_veneer   0x08003aa0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08003aa0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08003aa0        0x0
+ .iplt          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+
+.rel.dyn        0x08003aa0        0x0
+ .rel.iplt      0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08003aa0        0x0
+                0x08003aa0                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08003aa0                __exidx_end = .
+
+.preinit_array  0x08003aa0        0x0
+                0x08003aa0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08003aa0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08003aa0        0x8
+                0x08003aa0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x08003aa0        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x08003aa4        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+                0x08003aa8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08003aa8        0x4
+                0x08003aa8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x08003aa8        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+                0x08003aac                PROVIDE (__fini_array_end, .)
+                0x08003aac                _sidata = LOADADDR (.data)
+
+.data           0x20000000      0x550 load address 0x08003aac
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.APBAHBPrescTable
+                0x20000000       0x10 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .data.ADCPrescTable
+                0x20000010       0x1c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .data.Virtual_Com_Port_StringSerial
+                0x2000002c       0x1c src/usb_desc.o
+                0x2000002c                Virtual_Com_Port_StringSerial
+ .data.linecoding
+                0x20000048        0x8 src/usb_prop.o
+                0x20000048                linecoding
+ .data.Device_Table
+                0x20000050        0x4 src/usb_prop.o
+                0x20000050                Device_Table
+ .data.Device_Property
+                0x20000054       0x30 src/usb_prop.o
+                0x20000054                Device_Property
+ .data.User_Standard_Requests
+                0x20000084       0x24 src/usb_prop.o
+                0x20000084                User_Standard_Requests
+ .data.Device_Descriptor
+                0x200000a8        0x8 src/usb_prop.o
+                0x200000a8                Device_Descriptor
+ .data.Config_Descriptor
+                0x200000b0        0x8 src/usb_prop.o
+                0x200000b0                Config_Descriptor
+ .data.String_Descriptor
+                0x200000b8       0x20 src/usb_prop.o
+                0x200000b8                String_Descriptor
+ .data.BUTTON_PORT
+                0x200000d8        0x4 src/stm32f3_discovery.o
+                0x200000d8                BUTTON_PORT
+ .data.USBConnectTimeOut
+                0x200000dc        0x4 src/main.o
+                0x200000dc                USBConnectTimeOut
+ .data.packet_sent
+                0x200000e0        0x4 src/main.o
+                0x200000e0                packet_sent
+ .data.packet_receive
+                0x200000e4        0x4 src/main.o
+                0x200000e4                packet_receive
+ .data.pEpInt_IN
+                0x200000e8       0x1c src/usb_istr.o
+                0x200000e8                pEpInt_IN
+ .data.pEpInt_OUT
+                0x20000104       0x1c src/usb_istr.o
+                0x20000104                pEpInt_OUT
+ .data.fSuspendEnabled
+                0x20000120        0x1 src/usb_pwr.o
+                0x20000120                fSuspendEnabled
+ *fill*         0x20000121        0x7 
+ .data.impure_data
+                0x20000128      0x428 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                0x20000550                . = ALIGN (0x4)
+                0x20000550                _edata = .
+                0x08003ffc                _siccmram = LOADADDR (.ccmram)
+
+.jcr            0x20000550        0x0 load address 0x08003ffc
+ .jcr           0x20000550        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+
+.igot.plt       0x20000550        0x0 load address 0x08003ffc
+ .igot.plt      0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+
+.ccmram         0x10000000        0x0 load address 0x08003ffc
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _sccmram = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _eccmram = .
+                0x10000000                . = ALIGN (0x4)
+
+.bss            0x20000550     0x8b24
+                0x20000550                _sbss = .
+                0x20000550                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000550       0x1c /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+ *(.bss*)
+ .bss.Data_Mul_MaxPacketSize
+                0x2000056c        0x1 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x2000056c                Data_Mul_MaxPacketSize
+ .bss.Request   0x2000056d        0x1 src/usb_prop.o
+                0x2000056d                Request
+ *fill*         0x2000056e        0x2 
+ .bss.mem       0x20000570     0x8800 src/main.o
+ .bss.markers   0x20008d70      0x200 src/main.o
+ .bss.overflow  0x20008f70        0x4 src/main.o
+                0x20008f70                overflow
+ .bss.UserButtonPressed
+                0x20008f74        0x4 src/main.o
+                0x20008f74                UserButtonPressed
+ .bss.DataReady
+                0x20008f78        0x1 src/main.o
+                0x20008f78                DataReady
+ *fill*         0x20008f79        0x3 
+ .bss.tickcounter
+                0x20008f7c        0x4 src/main.o
+                0x20008f7c                tickcounter
+ .bss.i         0x20008f80        0x4 src/stm32f30x_it.o
+                0x20008f80                i
+ .bss.divider   0x20008f84        0x4 src/stm32f30x_it.o
+                0x20008f84                divider
+ .bss.bIntPackSOF
+                0x20008f88        0x1 src/usb_istr.o
+                0x20008f88                bIntPackSOF
+ *fill*         0x20008f89        0x3 
+ .bss.bDeviceState
+                0x20008f8c        0x4 src/usb_pwr.o
+                0x20008f8c                bDeviceState
+ *(COMMON)
+ COMMON         0x20008f90       0x44 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+                0x20008f90                Receive_Buffer
+                0x20008fd0                Send_length
+ COMMON         0x20008fd4       0x32 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+                0x20008fd4                SaveState
+                0x20008fd8                pProperty
+                0x20008fdc                EPindex
+                0x20008fe0                Device_Info
+                0x20008ffc                pUser_Standard_Requests
+                0x20009000                pInformation
+                0x20009004                wInterrupt_Mask
+ *fill*         0x20009006        0x2 
+ COMMON         0x20009008        0x2 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x20009008                StatusInfo
+ COMMON         0x2000900a        0x4 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+                0x2000900a                SaveRState
+                0x2000900c                SaveTState
+ *fill*         0x2000900e        0x2 
+ COMMON         0x20009010        0x4 src/usb_endp.o
+                0x20009010                Receive_length
+ COMMON         0x20009014        0xc src/hw_config.o
+                0x20009014                HSEStartUpStatus
+                0x20009018                EXTI_InitStructure
+ COMMON         0x20009020       0x4c src/main.o
+                0x20009020                usedMem
+                0x20009024                deq
+                0x2000902c                Send_Buffer
+ COMMON         0x2000906c        0x2 src/usb_istr.o
+                0x2000906c                wIstr
+ *fill*         0x2000906e        0x2 
+ COMMON         0x20009070        0x2 src/usb_pwr.o
+                0x20009070                ResumeS
+                0x20009074                . = ALIGN (0x4)
+ *fill*         0x20009072        0x2 
+                0x20009074                _ebss = .
+                0x20009074                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20009074      0x200
+                0x20009074                . = ALIGN (0x4)
+                0x20009074                PROVIDE (end, .)
+                0x20009074                PROVIDE (_end, .)
+                0x20009074                . = (. + _Min_Heap_Size)
+                0x20009274                . = (. + _Min_Stack_Size)
+ *fill*         0x20009074      0x200 
+                0x20009274                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2e
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+ .ARM.attributes
+                0x00000022       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+ .ARM.attributes
+                0x00000054       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .ARM.attributes
+                0x0000008b       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .ARM.attributes
+                0x000000c2       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .ARM.attributes
+                0x000000f9       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .ARM.attributes
+                0x00000130       0x37 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .ARM.attributes
+                0x00000167       0x37 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .ARM.attributes
+                0x0000019e       0x37 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .ARM.attributes
+                0x000001d5       0x37 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .ARM.attributes
+                0x0000020c       0x37 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .ARM.attributes
+                0x00000243       0x37 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .ARM.attributes
+                0x0000027a       0x37 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .ARM.attributes
+                0x000002b1       0x37 src/usb_desc.o
+ .ARM.attributes
+                0x000002e8       0x37 src/usb_endp.o
+ .ARM.attributes
+                0x0000031f       0x37 src/hw_config.o
+ .ARM.attributes
+                0x00000356       0x37 src/usb_prop.o
+ .ARM.attributes
+                0x0000038d       0x37 src/stm32f3_discovery.o
+ .ARM.attributes
+                0x000003c4       0x37 src/main.o
+ .ARM.attributes
+                0x000003fb       0x37 src/stm32f30x_it.o
+ .ARM.attributes
+                0x00000432       0x37 src/usb_istr.o
+ .ARM.attributes
+                0x00000469       0x37 src/system_stm32f30x.o
+ .ARM.attributes
+                0x000004a0       0x37 src/usb_pwr.o
+ .ARM.attributes
+                0x000004d7       0x21 src/startup_stm32f30x.o
+ .ARM.attributes
+                0x000004f8       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000052a       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000055c       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000058e       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000005c0       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000005f2       0x32 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000624       0x22 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+OUTPUT(stm32f3.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x771d
+ .debug_info    0x00000000      0x541 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .debug_info    0x00000541      0xab0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_info    0x00000ff1      0x3ca Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .debug_info    0x000013bb      0x3b8 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .debug_info    0x00001773      0x5fe Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_info    0x00001d71      0x20d Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_info    0x00001f7e      0x4a1 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_info    0x0000241f      0x1c1 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_info    0x000025e0      0xb99 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_info    0x00003179      0xce2 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_info    0x00003e5b      0x22e Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_info    0x00004089      0x1d4 src/usb_desc.o
+ .debug_info    0x0000425d      0x14b src/usb_endp.o
+ .debug_info    0x000043a8      0x9aa src/hw_config.o
+ .debug_info    0x00004d52      0x85e src/usb_prop.o
+ .debug_info    0x000055b0      0x857 src/stm32f3_discovery.o
+ .debug_info    0x00005e07      0xb45 src/main.o
+ .debug_info    0x0000694c      0x292 src/stm32f30x_it.o
+ .debug_info    0x00006bde      0x330 src/usb_istr.o
+ .debug_info    0x00006f0e      0x49c src/system_stm32f30x.o
+ .debug_info    0x000073aa      0x31c src/usb_pwr.o
+ .debug_info    0x000076c6       0x57 src/startup_stm32f30x.o
+
+.debug_abbrev   0x00000000     0x1dfb
+ .debug_abbrev  0x00000000      0x147 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .debug_abbrev  0x00000147      0x1e5 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_abbrev  0x0000032c      0x183 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .debug_abbrev  0x000004af      0x17c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .debug_abbrev  0x0000062b      0x196 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_abbrev  0x000007c1       0xc2 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_abbrev  0x00000883      0x132 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_abbrev  0x000009b5       0xe0 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_abbrev  0x00000a95      0x2a4 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_abbrev  0x00000d39      0x192 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_abbrev  0x00000ecb       0xd0 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_abbrev  0x00000f9b       0x75 src/usb_desc.o
+ .debug_abbrev  0x00001010       0xb3 src/usb_endp.o
+ .debug_abbrev  0x000010c3      0x259 src/hw_config.o
+ .debug_abbrev  0x0000131c      0x208 src/usb_prop.o
+ .debug_abbrev  0x00001524      0x185 src/stm32f3_discovery.o
+ .debug_abbrev  0x000016a9      0x2b4 src/main.o
+ .debug_abbrev  0x0000195d       0xff src/stm32f30x_it.o
+ .debug_abbrev  0x00001a5c      0x107 src/usb_istr.o
+ .debug_abbrev  0x00001b63      0x147 src/system_stm32f30x.o
+ .debug_abbrev  0x00001caa      0x13f src/usb_pwr.o
+ .debug_abbrev  0x00001de9       0x12 src/startup_stm32f30x.o
+
+.debug_aranges  0x00000000      0x960
+ .debug_aranges
+                0x00000000       0x40 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .debug_aranges
+                0x00000040      0x150 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_aranges
+                0x00000190       0x88 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .debug_aranges
+                0x00000218       0x58 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .debug_aranges
+                0x00000270       0x80 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_aranges
+                0x000002f0       0x28 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_aranges
+                0x00000318       0x20 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_aranges
+                0x00000338       0x30 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_aranges
+                0x00000368       0xb0 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_aranges
+                0x00000418      0x1f0 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_aranges
+                0x00000608       0x28 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_aranges
+                0x00000630       0x18 src/usb_desc.o
+ .debug_aranges
+                0x00000648       0x28 src/usb_endp.o
+ .debug_aranges
+                0x00000670       0x70 src/hw_config.o
+ .debug_aranges
+                0x000006e0       0x88 src/usb_prop.o
+ .debug_aranges
+                0x00000768       0x48 src/stm32f3_discovery.o
+ .debug_aranges
+                0x000007b0       0x80 src/main.o
+ .debug_aranges
+                0x00000830       0x78 src/stm32f30x_it.o
+ .debug_aranges
+                0x000008a8       0x20 src/usb_istr.o
+ .debug_aranges
+                0x000008c8       0x30 src/system_stm32f30x.o
+ .debug_aranges
+                0x000008f8       0x40 src/usb_pwr.o
+ .debug_aranges
+                0x00000938       0x28 src/startup_stm32f30x.o
+
+.debug_ranges   0x00000000      0x818
+ .debug_ranges  0x00000000       0x30 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .debug_ranges  0x00000030      0x140 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_ranges  0x00000170       0x78 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .debug_ranges  0x000001e8       0x48 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .debug_ranges  0x00000230       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_ranges  0x000002a0       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_ranges  0x000002b8       0x10 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_ranges  0x000002c8       0x20 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_ranges  0x000002e8       0xb8 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_ranges  0x000003a0      0x1e0 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_ranges  0x00000580       0x18 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_ranges  0x00000598       0x18 src/usb_endp.o
+ .debug_ranges  0x000005b0       0x60 src/hw_config.o
+ .debug_ranges  0x00000610       0x78 src/usb_prop.o
+ .debug_ranges  0x00000688       0x38 src/stm32f3_discovery.o
+ .debug_ranges  0x000006c0       0x70 src/main.o
+ .debug_ranges  0x00000730       0x68 src/stm32f30x_it.o
+ .debug_ranges  0x00000798       0x10 src/usb_istr.o
+ .debug_ranges  0x000007a8       0x20 src/system_stm32f30x.o
+ .debug_ranges  0x000007c8       0x30 src/usb_pwr.o
+ .debug_ranges  0x000007f8       0x20 src/startup_stm32f30x.o
+
+.debug_line     0x00000000     0x3352
+ .debug_line    0x00000000      0x1d2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .debug_line    0x000001d2      0x508 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_line    0x000006da      0x244 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .debug_line    0x0000091e      0x22c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .debug_line    0x00000b4a      0x29d Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_line    0x00000de7      0x165 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_line    0x00000f4c      0x148 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_line    0x00001094      0x16e Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_line    0x00001202      0x485 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_line    0x00001687      0x65c Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_line    0x00001ce3      0x232 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_line    0x00001f15       0xd6 src/usb_desc.o
+ .debug_line    0x00001feb       0xfc src/usb_endp.o
+ .debug_line    0x000020e7      0x312 src/hw_config.o
+ .debug_line    0x000023f9      0x28b src/usb_prop.o
+ .debug_line    0x00002684      0x20b src/stm32f3_discovery.o
+ .debug_line    0x0000288f      0x31a src/main.o
+ .debug_line    0x00002ba9      0x24c src/stm32f30x_it.o
+ .debug_line    0x00002df5      0x161 src/usb_istr.o
+ .debug_line    0x00002f56      0x18a src/system_stm32f30x.o
+ .debug_line    0x000030e0      0x1fe src/usb_pwr.o
+ .debug_line    0x000032de       0x74 src/startup_stm32f30x.o
+
+.debug_str      0x00000000     0x2d80
+ .debug_str     0x00000000      0x3c2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+                                0x423 (size before relaxing)
+ .debug_str     0x000003c2      0x626 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                                0x849 (size before relaxing)
+ .debug_str     0x000009e8      0x263 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+                                0x455 (size before relaxing)
+ .debug_str     0x00000c4b      0x1f1 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+                                0x3d5 (size before relaxing)
+ .debug_str     0x00000e3c      0x2e9 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                                0x4ed (size before relaxing)
+ .debug_str     0x00001125       0xa6 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+                                0x263 (size before relaxing)
+ .debug_str     0x000011cb      0x324 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+                                0x5b7 (size before relaxing)
+ .debug_str     0x000014ef       0x89 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+                                0x271 (size before relaxing)
+ .debug_str     0x00001578      0x4f8 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                                0xacf (size before relaxing)
+ .debug_str     0x00001a70      0x3f7 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+                                0x5eb (size before relaxing)
+ .debug_str     0x00001e67       0x63 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+                                0x262 (size before relaxing)
+ .debug_str     0x00001eca       0xcc src/usb_desc.o
+                                0x290 (size before relaxing)
+ .debug_str     0x00001f96       0x5a src/usb_endp.o
+                                0x21e (size before relaxing)
+ .debug_str     0x00001ff0      0x5fd src/hw_config.o
+                                0xc53 (size before relaxing)
+ .debug_str     0x000025ed      0x23d src/usb_prop.o
+                                0x99c (size before relaxing)
+ .debug_str     0x0000282a      0x169 src/stm32f3_discovery.o
+                                0xaab (size before relaxing)
+ .debug_str     0x00002993      0x181 src/main.o
+                                0xa1e (size before relaxing)
+ .debug_str     0x00002b14      0x161 src/stm32f30x_it.o
+                                0x383 (size before relaxing)
+ .debug_str     0x00002c75       0x34 src/usb_istr.o
+                                0x3ec (size before relaxing)
+ .debug_str     0x00002ca9       0x78 src/system_stm32f30x.o
+                                0x338 (size before relaxing)
+ .debug_str     0x00002d21       0x5f src/usb_pwr.o
+                                0x39f (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .comment       0x00000000       0x71 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .comment       0x00000000       0x71 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .comment       0x00000000       0x71 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .comment       0x00000000       0x71 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .comment       0x00000000       0x71 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .comment       0x00000000       0x71 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .comment       0x00000000       0x71 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .comment       0x00000000       0x71 src/usb_desc.o
+ .comment       0x00000000       0x71 src/usb_endp.o
+ .comment       0x00000000       0x71 src/hw_config.o
+ .comment       0x00000000       0x71 src/usb_prop.o
+ .comment       0x00000000       0x71 src/stm32f3_discovery.o
+ .comment       0x00000000       0x71 src/main.o
+ .comment       0x00000000       0x71 src/stm32f30x_it.o
+ .comment       0x00000000       0x71 src/usb_istr.o
+ .comment       0x00000000       0x71 src/system_stm32f30x.o
+ .comment       0x00000000       0x71 src/usb_pwr.o
+
+.debug_frame    0x00000000     0x1bec
+ .debug_frame   0x00000000       0x9c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
+ .debug_frame   0x0000009c      0x44c Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_frame   0x000004e8      0x194 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
+ .debug_frame   0x0000067c       0xec Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_exti.o
+ .debug_frame   0x00000768      0x180 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_frame   0x000008e8       0x48 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_frame   0x00000930       0x2c Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_frame   0x0000095c       0x68 Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_frame   0x000009c4      0x254 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_frame   0x00000c18      0x684 Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_frame   0x0000129c       0x50 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_frame   0x000012ec       0x44 src/usb_endp.o
+ .debug_frame   0x00001330      0x160 src/hw_config.o
+ .debug_frame   0x00001490      0x19c src/usb_prop.o
+ .debug_frame   0x0000162c       0xc4 src/stm32f3_discovery.o
+ .debug_frame   0x000016f0      0x190 src/main.o
+ .debug_frame   0x00001880      0x140 src/stm32f30x_it.o
+ .debug_frame   0x000019c0       0x2c src/usb_istr.o
+ .debug_frame   0x000019ec       0x64 src/system_stm32f30x.o
+ .debug_frame   0x00001a50       0xac src/usb_pwr.o
+ .debug_frame   0x00001afc       0x2c /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+ .debug_frame   0x00001b28       0x48 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001b70       0x20 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00001b90       0x2c /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+ .debug_frame   0x00001bbc       0x30 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
