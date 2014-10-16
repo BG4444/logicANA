@@ -29,14 +29,18 @@ extern __IO uint32_t Receive_length ;
 uint8_t Send_Buffer[64];
 __IO uint32_t packet_sent=1;
 uint32_t packet_receive=1;
+uint32_t order_number=0;
 
 
 #define NEW(t) (t*)malloc(sizeof(t))
 
 bool waitForSending()
 {
-	const uint32_t oldTimer=tickcounter;
-	while((!packet_sent)&&(oldTimer==tickcounter));
+	for(int i=0;i<2;i++)
+	{
+		const uint32_t oldTimer=tickcounter;
+		while((!packet_sent)&&(tickcounter==oldTimer));
+	}
 	return(packet_sent==0);
 }
 
@@ -100,7 +104,12 @@ bool sendDeque(deque* deq)
 	{
 		size++;
 	}
-	CDC_Send_DATA(&size,4);
+	order_number++;
+	if(order_number=='Z')
+	{
+		order_number='A';
+	}
+	CDC_Send_DATA(&tickcounter,4);
 	if(waitForSending())
 	{
 		return(1);
@@ -129,6 +138,7 @@ bool sendDeque(deque* deq)
 
 void init()
 {
+	order_number='A';
 	usedMem=0;
 	overflow=0;
 	deq.head=allocNode();

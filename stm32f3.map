@@ -1815,7 +1815,7 @@ LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188     0x38f0
+.text           0x08000188     0x3928
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x54 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
@@ -2092,244 +2092,244 @@ LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
  .text.SysTick_Config
                 0x08002ed0       0x44 src/main.o
  .text.waitForSending
-                0x08002f14       0x44 src/main.o
+                0x08002f14       0x54 src/main.o
                 0x08002f14                waitForSending
  .text.allocNode
-                0x08002f58       0x70 src/main.o
-                0x08002f58                allocNode
- .text.initUSB  0x08002fc8       0x30 src/main.o
-                0x08002fc8                initUSB
+                0x08002f68       0x70 src/main.o
+                0x08002f68                allocNode
+ .text.initUSB  0x08002fd8       0x30 src/main.o
+                0x08002fd8                initUSB
  .text.sendDeque
-                0x08002ff8       0x88 src/main.o
-                0x08002ff8                sendDeque
- .text.init     0x08003080       0x58 src/main.o
-                0x08003080                init
+                0x08003008       0xa4 src/main.o
+                0x08003008                sendDeque
+ .text.init     0x080030ac       0x64 src/main.o
+                0x080030ac                init
  .text.sendString
-                0x080030d8       0x3c src/main.o
-                0x080030d8                sendString
- .text.main     0x08003114      0x138 src/main.o
-                0x08003114                main
+                0x08003110       0x3c src/main.o
+                0x08003110                sendString
+ .text.main     0x0800314c      0x138 src/main.o
+                0x0800314c                main
  .text.TimingDelay_Decrement
-                0x0800324c       0x1c src/main.o
-                0x0800324c                TimingDelay_Decrement
+                0x08003284       0x1c src/main.o
+                0x08003284                TimingDelay_Decrement
  .text.NMI_Handler
-                0x08003268        0xc src/stm32f30x_it.o
-                0x08003268                NMI_Handler
- .text.HardFault_Handler
-                0x08003274        0x8 src/stm32f30x_it.o
-                0x08003274                HardFault_Handler
- .text.MemManage_Handler
-                0x0800327c        0x8 src/stm32f30x_it.o
-                0x0800327c                MemManage_Handler
- .text.BusFault_Handler
-                0x08003284        0x8 src/stm32f30x_it.o
-                0x08003284                BusFault_Handler
- .text.UsageFault_Handler
-                0x0800328c        0x8 src/stm32f30x_it.o
-                0x0800328c                UsageFault_Handler
- .text.SVC_Handler
-                0x08003294        0xc src/stm32f30x_it.o
-                0x08003294                SVC_Handler
- .text.DebugMon_Handler
                 0x080032a0        0xc src/stm32f30x_it.o
-                0x080032a0                DebugMon_Handler
+                0x080032a0                NMI_Handler
+ .text.HardFault_Handler
+                0x080032ac        0x8 src/stm32f30x_it.o
+                0x080032ac                HardFault_Handler
+ .text.MemManage_Handler
+                0x080032b4        0x8 src/stm32f30x_it.o
+                0x080032b4                MemManage_Handler
+ .text.BusFault_Handler
+                0x080032bc        0x8 src/stm32f30x_it.o
+                0x080032bc                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080032c4        0x8 src/stm32f30x_it.o
+                0x080032c4                UsageFault_Handler
+ .text.SVC_Handler
+                0x080032cc        0xc src/stm32f30x_it.o
+                0x080032cc                SVC_Handler
+ .text.DebugMon_Handler
+                0x080032d8        0xc src/stm32f30x_it.o
+                0x080032d8                DebugMon_Handler
  .text.PendSV_Handler
-                0x080032ac        0xc src/stm32f30x_it.o
-                0x080032ac                PendSV_Handler
+                0x080032e4        0xc src/stm32f30x_it.o
+                0x080032e4                PendSV_Handler
  .text.SysTick_Handler
-                0x080032b8       0x48 src/stm32f30x_it.o
-                0x080032b8                SysTick_Handler
+                0x080032f0       0x48 src/stm32f30x_it.o
+                0x080032f0                SysTick_Handler
  .text.EXTI0_IRQHandler
-                0x08003300       0x90 src/stm32f30x_it.o
-                0x08003300                EXTI0_IRQHandler
+                0x08003338       0x90 src/stm32f30x_it.o
+                0x08003338                EXTI0_IRQHandler
  .text.USB_LP_CAN1_RX0_IRQHandler
-                0x08003390        0xc src/stm32f30x_it.o
-                0x08003390                USB_LP_CAN1_RX0_IRQHandler
+                0x080033c8        0xc src/stm32f30x_it.o
+                0x080033c8                USB_LP_CAN1_RX0_IRQHandler
  .text.USBWakeUp_IRQHandler
-                0x0800339c       0x14 src/stm32f30x_it.o
-                0x0800339c                USBWakeUp_IRQHandler
+                0x080033d4       0x14 src/stm32f30x_it.o
+                0x080033d4                USBWakeUp_IRQHandler
  .text.USB_Istr
-                0x080033b0      0x120 src/usb_istr.o
-                0x080033b0                USB_Istr
+                0x080033e8      0x120 src/usb_istr.o
+                0x080033e8                USB_Istr
  .text.SystemInit
-                0x080034d0       0x90 src/system_stm32f30x.o
-                0x080034d0                SystemInit
+                0x08003508       0x90 src/system_stm32f30x.o
+                0x08003508                SystemInit
  .text.SetSysClock
-                0x08003560       0xe0 src/system_stm32f30x.o
- .text.PowerOn  0x08003640       0x50 src/usb_pwr.o
-                0x08003640                PowerOn
- .text.Suspend  0x08003690       0x3c src/usb_pwr.o
-                0x08003690                Suspend
+                0x08003598       0xe0 src/system_stm32f30x.o
+ .text.PowerOn  0x08003678       0x50 src/usb_pwr.o
+                0x08003678                PowerOn
+ .text.Suspend  0x080036c8       0x3c src/usb_pwr.o
+                0x080036c8                Suspend
  .text.Resume_Init
-                0x080036cc       0x30 src/usb_pwr.o
-                0x080036cc                Resume_Init
- .text.Resume   0x080036fc       0xf8 src/usb_pwr.o
-                0x080036fc                Resume
+                0x08003704       0x30 src/usb_pwr.o
+                0x08003704                Resume_Init
+ .text.Resume   0x08003734       0xf8 src/usb_pwr.o
+                0x08003734                Resume
  .text.Reset_Handler
-                0x080037f4       0x54 src/startup_stm32f30x.o
-                0x080037f4                Reset_Handler
+                0x0800382c       0x54 src/startup_stm32f30x.o
+                0x0800382c                Reset_Handler
  .text.Default_Handler
-                0x08003848        0x4 src/startup_stm32f30x.o
-                0x08003848                RTC_Alarm_IRQHandler
-                0x08003848                TIM8_TRG_COM_IRQHandler
-                0x08003848                TIM8_CC_IRQHandler
-                0x08003848                TIM1_CC_IRQHandler
-                0x08003848                USB_HP_IRQHandler
-                0x08003848                PVD_IRQHandler
-                0x08003848                EXTI3_IRQHandler
-                0x08003848                I2C2_EV_IRQHandler
-                0x08003848                FPU_IRQHandler
-                0x08003848                EXTI2_TS_IRQHandler
-                0x08003848                TIM1_UP_TIM16_IRQHandler
-                0x08003848                ADC1_2_IRQHandler
-                0x08003848                SPI1_IRQHandler
-                0x08003848                TIM6_DAC_IRQHandler
-                0x08003848                TIM8_UP_IRQHandler
-                0x08003848                DMA2_Channel2_IRQHandler
-                0x08003848                DMA1_Channel4_IRQHandler
-                0x08003848                USART3_IRQHandler
-                0x08003848                DMA1_Channel7_IRQHandler
-                0x08003848                CAN1_RX1_IRQHandler
-                0x08003848                UART5_IRQHandler
-                0x08003848                ADC3_IRQHandler
-                0x08003848                TIM4_IRQHandler
-                0x08003848                DMA2_Channel1_IRQHandler
-                0x08003848                I2C1_EV_IRQHandler
-                0x08003848                DMA1_Channel6_IRQHandler
-                0x08003848                UART4_IRQHandler
-                0x08003848                DMA2_Channel4_IRQHandler
-                0x08003848                TIM3_IRQHandler
-                0x08003848                RCC_IRQHandler
-                0x08003848                DMA1_Channel1_IRQHandler
-                0x08003848                Default_Handler
-                0x08003848                USBWakeUp_RMP_IRQHandler
-                0x08003848                EXTI15_10_IRQHandler
-                0x08003848                TIM7_IRQHandler
-                0x08003848                EXTI9_5_IRQHandler
-                0x08003848                TAMPER_STAMP_IRQHandler
-                0x08003848                RTC_WKUP_IRQHandler
-                0x08003848                SPI2_IRQHandler
-                0x08003848                DMA2_Channel5_IRQHandler
-                0x08003848                DMA1_Channel5_IRQHandler
-                0x08003848                USB_LP_IRQHandler
-                0x08003848                EXTI4_IRQHandler
-                0x08003848                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08003848                USB_HP_CAN1_TX_IRQHandler
-                0x08003848                DMA1_Channel3_IRQHandler
-                0x08003848                ADC4_IRQHandler
-                0x08003848                WWDG_IRQHandler
-                0x08003848                TIM2_IRQHandler
-                0x08003848                COMP7_IRQHandler
-                0x08003848                COMP1_2_3_IRQHandler
-                0x08003848                EXTI1_IRQHandler
-                0x08003848                USART2_IRQHandler
-                0x08003848                COMP4_5_6_IRQHandler
-                0x08003848                I2C2_ER_IRQHandler
-                0x08003848                DMA1_Channel2_IRQHandler
-                0x08003848                TIM8_BRK_IRQHandler
-                0x08003848                CAN1_SCE_IRQHandler
-                0x08003848                FLASH_IRQHandler
-                0x08003848                USART1_IRQHandler
-                0x08003848                SPI3_IRQHandler
-                0x08003848                I2C1_ER_IRQHandler
-                0x08003848                DMA2_Channel3_IRQHandler
-                0x08003848                TIM1_BRK_TIM15_IRQHandler
+                0x08003880        0x4 src/startup_stm32f30x.o
+                0x08003880                RTC_Alarm_IRQHandler
+                0x08003880                TIM8_TRG_COM_IRQHandler
+                0x08003880                TIM8_CC_IRQHandler
+                0x08003880                TIM1_CC_IRQHandler
+                0x08003880                USB_HP_IRQHandler
+                0x08003880                PVD_IRQHandler
+                0x08003880                EXTI3_IRQHandler
+                0x08003880                I2C2_EV_IRQHandler
+                0x08003880                FPU_IRQHandler
+                0x08003880                EXTI2_TS_IRQHandler
+                0x08003880                TIM1_UP_TIM16_IRQHandler
+                0x08003880                ADC1_2_IRQHandler
+                0x08003880                SPI1_IRQHandler
+                0x08003880                TIM6_DAC_IRQHandler
+                0x08003880                TIM8_UP_IRQHandler
+                0x08003880                DMA2_Channel2_IRQHandler
+                0x08003880                DMA1_Channel4_IRQHandler
+                0x08003880                USART3_IRQHandler
+                0x08003880                DMA1_Channel7_IRQHandler
+                0x08003880                CAN1_RX1_IRQHandler
+                0x08003880                UART5_IRQHandler
+                0x08003880                ADC3_IRQHandler
+                0x08003880                TIM4_IRQHandler
+                0x08003880                DMA2_Channel1_IRQHandler
+                0x08003880                I2C1_EV_IRQHandler
+                0x08003880                DMA1_Channel6_IRQHandler
+                0x08003880                UART4_IRQHandler
+                0x08003880                DMA2_Channel4_IRQHandler
+                0x08003880                TIM3_IRQHandler
+                0x08003880                RCC_IRQHandler
+                0x08003880                DMA1_Channel1_IRQHandler
+                0x08003880                Default_Handler
+                0x08003880                USBWakeUp_RMP_IRQHandler
+                0x08003880                EXTI15_10_IRQHandler
+                0x08003880                TIM7_IRQHandler
+                0x08003880                EXTI9_5_IRQHandler
+                0x08003880                TAMPER_STAMP_IRQHandler
+                0x08003880                RTC_WKUP_IRQHandler
+                0x08003880                SPI2_IRQHandler
+                0x08003880                DMA2_Channel5_IRQHandler
+                0x08003880                DMA1_Channel5_IRQHandler
+                0x08003880                USB_LP_IRQHandler
+                0x08003880                EXTI4_IRQHandler
+                0x08003880                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08003880                USB_HP_CAN1_TX_IRQHandler
+                0x08003880                DMA1_Channel3_IRQHandler
+                0x08003880                ADC4_IRQHandler
+                0x08003880                WWDG_IRQHandler
+                0x08003880                TIM2_IRQHandler
+                0x08003880                COMP7_IRQHandler
+                0x08003880                COMP1_2_3_IRQHandler
+                0x08003880                EXTI1_IRQHandler
+                0x08003880                USART2_IRQHandler
+                0x08003880                COMP4_5_6_IRQHandler
+                0x08003880                I2C2_ER_IRQHandler
+                0x08003880                DMA1_Channel2_IRQHandler
+                0x08003880                TIM8_BRK_IRQHandler
+                0x08003880                CAN1_SCE_IRQHandler
+                0x08003880                FLASH_IRQHandler
+                0x08003880                USART1_IRQHandler
+                0x08003880                SPI3_IRQHandler
+                0x08003880                I2C1_ER_IRQHandler
+                0x08003880                DMA2_Channel3_IRQHandler
+                0x08003880                TIM1_BRK_TIM15_IRQHandler
  .text.__libc_init_array
-                0x0800384c       0x50 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
-                0x0800384c                __libc_init_array
+                0x08003884       0x50 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-init.o)
+                0x08003884                __libc_init_array
  .text.startup.register_fini
-                0x0800389c       0x14 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x080038b0        0xc /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
-                0x080038b0                atexit
+                0x080038d4       0x14 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080038e8        0xc /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-atexit.o)
+                0x080038e8                atexit
  .text.__libc_fini_array
-                0x080038bc       0x30 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
-                0x080038bc                __libc_fini_array
+                0x080038f4       0x30 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fini.o)
+                0x080038f4                __libc_fini_array
  .text.__register_exitproc
-                0x080038ec       0xa8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
-                0x080038ec                __register_exitproc
+                0x08003924       0xa8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__atexit.o)
+                0x08003924                __register_exitproc
  *(.rodata)
- .rodata        0x08003994        0xc src/main.o
+ .rodata        0x080039cc        0xc src/main.o
  *(.rodata*)
  .rodata.Virtual_Com_Port_DeviceDescriptor
-                0x080039a0       0x14 src/usb_desc.o
-                0x080039a0                Virtual_Com_Port_DeviceDescriptor
+                0x080039d8       0x14 src/usb_desc.o
+                0x080039d8                Virtual_Com_Port_DeviceDescriptor
  .rodata.Virtual_Com_Port_ConfigDescriptor
-                0x080039b4       0x44 src/usb_desc.o
-                0x080039b4                Virtual_Com_Port_ConfigDescriptor
+                0x080039ec       0x44 src/usb_desc.o
+                0x080039ec                Virtual_Com_Port_ConfigDescriptor
  .rodata.Virtual_Com_Port_StringLangID
-                0x080039f8        0x4 src/usb_desc.o
-                0x080039f8                Virtual_Com_Port_StringLangID
+                0x08003a30        0x4 src/usb_desc.o
+                0x08003a30                Virtual_Com_Port_StringLangID
  .rodata.Virtual_Com_Port_StringVendor
-                0x080039fc       0x28 src/usb_desc.o
-                0x080039fc                Virtual_Com_Port_StringVendor
+                0x08003a34       0x28 src/usb_desc.o
+                0x08003a34                Virtual_Com_Port_StringVendor
  .rodata.Virtual_Com_Port_StringProduct
-                0x08003a24       0x34 src/usb_desc.o
-                0x08003a24                Virtual_Com_Port_StringProduct
+                0x08003a5c       0x34 src/usb_desc.o
+                0x08003a5c                Virtual_Com_Port_StringProduct
  .rodata.str1.4
-                0x08003a58        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                0x08003a90        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x08003a5c        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
-                0x08003a5c                _global_impure_ptr
+                0x08003a94        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                0x08003a94                _global_impure_ptr
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003a60        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+ .eh_frame      0x08003a98        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
  *(.init)
- .init          0x08003a60        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
-                0x08003a60                _init
- .init          0x08003a64        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+ .init          0x08003a98        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+                0x08003a98                _init
+ .init          0x08003a9c        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
  *(.fini)
- .fini          0x08003a6c        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
-                0x08003a6c                _fini
- .fini          0x08003a70        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
-                0x08003a78                . = ALIGN (0x4)
-                0x08003a78                _etext = .
+ .fini          0x08003aa4        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crti.o
+                0x08003aa4                _fini
+ .fini          0x08003aa8        0x8 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
+                0x08003ab0                . = ALIGN (0x4)
+                0x08003ab0                _etext = .
 
-.vfp11_veneer   0x08003a78        0x0
+.vfp11_veneer   0x08003ab0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x08003a78        0x0
+.v4_bx          0x08003ab0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x08003a78        0x0
+.iplt           0x08003ab0        0x0
  .iplt          0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
 
-.rel.dyn        0x08003a78        0x0
+.rel.dyn        0x08003ab0        0x0
  .rel.iplt      0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08003a78        0x0
-                0x08003a78                __exidx_start = .
+.ARM            0x08003ab0        0x0
+                0x08003ab0                __exidx_start = .
  *(.ARM.exidx*)
-                0x08003a78                __exidx_end = .
+                0x08003ab0                __exidx_end = .
 
-.preinit_array  0x08003a78        0x0
-                0x08003a78                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08003ab0        0x0
+                0x08003ab0                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x08003a78                PROVIDE (__preinit_array_end, .)
+                0x08003ab0                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x08003a78        0x8
-                0x08003a78                PROVIDE (__init_array_start, .)
+.init_array     0x08003ab0        0x8
+                0x08003ab0                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x08003a78        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
+                0x08003ab0        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08003a7c        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
-                0x08003a80                PROVIDE (__init_array_end, .)
+ .init_array    0x08003ab4        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+                0x08003ab8                PROVIDE (__init_array_end, .)
 
-.fini_array     0x08003a80        0x4
-                0x08003a80                PROVIDE (__fini_array_start, .)
+.fini_array     0x08003ab8        0x4
+                0x08003ab8                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003a80        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
-                0x08003a84                PROVIDE (__fini_array_end, .)
-                0x08003a84                _sidata = LOADADDR (.data)
+ .fini_array    0x08003ab8        0x4 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
+                0x08003abc                PROVIDE (__fini_array_end, .)
+                0x08003abc                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x550 load address 0x08003a84
+.data           0x20000000      0x550 load address 0x08003abc
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2388,15 +2388,15 @@ LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
                 0x20000128      0x428 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
                 0x20000550                . = ALIGN (0x4)
                 0x20000550                _edata = .
-                0x08003fd4                _siccmram = LOADADDR (.ccmram)
+                0x0800400c                _siccmram = LOADADDR (.ccmram)
 
-.jcr            0x20000550        0x0 load address 0x08003fd4
+.jcr            0x20000550        0x0 load address 0x0800400c
  .jcr           0x20000550        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
 
-.igot.plt       0x20000550        0x0 load address 0x08003fd4
+.igot.plt       0x20000550        0x0 load address 0x0800400c
  .igot.plt      0x00000000        0x0 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08003fd4
+.ccmram         0x10000000        0x0 load address 0x0800400c
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -2405,7 +2405,7 @@ LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
                 0x10000000                _eccmram = .
                 0x10000000                . = ALIGN (0x4)
 
-.bss            0x20000550     0x8b24
+.bss            0x20000550     0x8b28
                 0x20000550                _sbss = .
                 0x20000550                __bss_start__ = _sbss
  *(.bss)
@@ -2431,64 +2431,67 @@ LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
  .bss.tickcounter
                 0x20008f7c        0x4 src/main.o
                 0x20008f7c                tickcounter
- .bss.i         0x20008f80        0x4 src/stm32f30x_it.o
-                0x20008f80                i
- .bss.divider   0x20008f84        0x4 src/stm32f30x_it.o
-                0x20008f84                divider
+ .bss.order_number
+                0x20008f80        0x4 src/main.o
+                0x20008f80                order_number
+ .bss.i         0x20008f84        0x4 src/stm32f30x_it.o
+                0x20008f84                i
+ .bss.divider   0x20008f88        0x4 src/stm32f30x_it.o
+                0x20008f88                divider
  .bss.bIntPackSOF
-                0x20008f88        0x1 src/usb_istr.o
-                0x20008f88                bIntPackSOF
- *fill*         0x20008f89        0x3 
+                0x20008f8c        0x1 src/usb_istr.o
+                0x20008f8c                bIntPackSOF
+ *fill*         0x20008f8d        0x3 
  .bss.bDeviceState
-                0x20008f8c        0x4 src/usb_pwr.o
-                0x20008f8c                bDeviceState
+                0x20008f90        0x4 src/usb_pwr.o
+                0x20008f90                bDeviceState
  *(COMMON)
- COMMON         0x20008f90       0x44 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
-                0x20008f90                Receive_Buffer
-                0x20008fd0                Send_length
- COMMON         0x20008fd4       0x32 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
-                0x20008fd4                SaveState
-                0x20008fd8                pProperty
-                0x20008fdc                EPindex
-                0x20008fe0                Device_Info
-                0x20008ffc                pUser_Standard_Requests
-                0x20009000                pInformation
-                0x20009004                wInterrupt_Mask
- *fill*         0x20009006        0x2 
- COMMON         0x20009008        0x2 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x20009008                StatusInfo
- COMMON         0x2000900a        0x4 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
-                0x2000900a                SaveRState
-                0x2000900c                SaveTState
- *fill*         0x2000900e        0x2 
- COMMON         0x20009010        0x4 src/usb_endp.o
-                0x20009010                Receive_length
- COMMON         0x20009014        0xc src/hw_config.o
-                0x20009014                HSEStartUpStatus
-                0x20009018                EXTI_InitStructure
- COMMON         0x20009020       0x4c src/main.o
-                0x20009020                usedMem
-                0x20009024                deq
-                0x2000902c                Send_Buffer
- COMMON         0x2000906c        0x2 src/usb_istr.o
-                0x2000906c                wIstr
- *fill*         0x2000906e        0x2 
- COMMON         0x20009070        0x2 src/usb_pwr.o
-                0x20009070                ResumeS
-                0x20009074                . = ALIGN (0x4)
+ COMMON         0x20008f94       0x44 Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.o
+                0x20008f94                Receive_Buffer
+                0x20008fd4                Send_length
+ COMMON         0x20008fd8       0x32 Libraries/STM32_USB-FS-Device_Driver/src/usb_init.o
+                0x20008fd8                SaveState
+                0x20008fdc                pProperty
+                0x20008fe0                EPindex
+                0x20008fe4                Device_Info
+                0x20009000                pUser_Standard_Requests
+                0x20009004                pInformation
+                0x20009008                wInterrupt_Mask
+ *fill*         0x2000900a        0x2 
+ COMMON         0x2000900c        0x2 Libraries/STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x2000900c                StatusInfo
+ COMMON         0x2000900e        0x4 Libraries/STM32_USB-FS-Device_Driver/src/usb_int.o
+                0x2000900e                SaveRState
+                0x20009010                SaveTState
+ *fill*         0x20009012        0x2 
+ COMMON         0x20009014        0x4 src/usb_endp.o
+                0x20009014                Receive_length
+ COMMON         0x20009018        0xc src/hw_config.o
+                0x20009018                HSEStartUpStatus
+                0x2000901c                EXTI_InitStructure
+ COMMON         0x20009024       0x4c src/main.o
+                0x20009024                usedMem
+                0x20009028                deq
+                0x20009030                Send_Buffer
+ COMMON         0x20009070        0x2 src/usb_istr.o
+                0x20009070                wIstr
  *fill*         0x20009072        0x2 
-                0x20009074                _ebss = .
-                0x20009074                __bss_end__ = _ebss
+ COMMON         0x20009074        0x2 src/usb_pwr.o
+                0x20009074                ResumeS
+                0x20009078                . = ALIGN (0x4)
+ *fill*         0x20009076        0x2 
+                0x20009078                _ebss = .
+                0x20009078                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20009074      0x200
-                0x20009074                . = ALIGN (0x4)
-                0x20009074                PROVIDE (end, .)
-                0x20009074                PROVIDE (_end, .)
-                0x20009074                . = (. + _Min_Heap_Size)
-                0x20009274                . = (. + _Min_Stack_Size)
- *fill*         0x20009074      0x200 
-                0x20009274                . = ALIGN (0x4)
+                0x20009078      0x200
+                0x20009078                . = ALIGN (0x4)
+                0x20009078                PROVIDE (end, .)
+                0x20009078                PROVIDE (_end, .)
+                0x20009078                . = (. + _Min_Heap_Size)
+                0x20009278                . = (. + _Min_Stack_Size)
+ *fill*         0x20009078      0x200 
+                0x20009278                . = ALIGN (0x4)
 
 .memory_b1_text
  *(.mb1text)
@@ -2568,7 +2571,7 @@ LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
                 0x00000624       0x22 /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/crtn.o
 OUTPUT(stm32f3.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x776c
+.debug_info     0x00000000     0x779d
  .debug_info    0x00000000      0x541 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
  .debug_info    0x00000541      0xab0 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .debug_info    0x00000ff1      0x3ca Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
@@ -2585,12 +2588,12 @@ OUTPUT(stm32f3.elf elf32-littlearm)
  .debug_info    0x000043a8      0x9aa src/hw_config.o
  .debug_info    0x00004d52      0x85e src/usb_prop.o
  .debug_info    0x000055b0      0x857 src/stm32f3_discovery.o
- .debug_info    0x00005e07      0xb94 src/main.o
- .debug_info    0x0000699b      0x292 src/stm32f30x_it.o
- .debug_info    0x00006c2d      0x330 src/usb_istr.o
- .debug_info    0x00006f5d      0x49c src/system_stm32f30x.o
- .debug_info    0x000073f9      0x31c src/usb_pwr.o
- .debug_info    0x00007715       0x57 src/startup_stm32f30x.o
+ .debug_info    0x00005e07      0xbc5 src/main.o
+ .debug_info    0x000069cc      0x292 src/stm32f30x_it.o
+ .debug_info    0x00006c5e      0x330 src/usb_istr.o
+ .debug_info    0x00006f8e      0x49c src/system_stm32f30x.o
+ .debug_info    0x0000742a      0x31c src/usb_pwr.o
+ .debug_info    0x00007746       0x57 src/startup_stm32f30x.o
 
 .debug_abbrev   0x00000000     0x1e13
  .debug_abbrev  0x00000000      0x147 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
@@ -2685,7 +2688,7 @@ OUTPUT(stm32f3.elf elf32-littlearm)
  .debug_ranges  0x000007d0       0x30 src/usb_pwr.o
  .debug_ranges  0x00000800       0x20 src/startup_stm32f30x.o
 
-.debug_line     0x00000000     0x3381
+.debug_line     0x00000000     0x338e
  .debug_line    0x00000000      0x1d2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
  .debug_line    0x000001d2      0x508 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .debug_line    0x000006da      0x244 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_syscfg.o
@@ -2702,14 +2705,14 @@ OUTPUT(stm32f3.elf elf32-littlearm)
  .debug_line    0x000020e7      0x312 src/hw_config.o
  .debug_line    0x000023f9      0x28b src/usb_prop.o
  .debug_line    0x00002684      0x20b src/stm32f3_discovery.o
- .debug_line    0x0000288f      0x349 src/main.o
- .debug_line    0x00002bd8      0x24c src/stm32f30x_it.o
- .debug_line    0x00002e24      0x161 src/usb_istr.o
- .debug_line    0x00002f85      0x18a src/system_stm32f30x.o
- .debug_line    0x0000310f      0x1fe src/usb_pwr.o
- .debug_line    0x0000330d       0x74 src/startup_stm32f30x.o
+ .debug_line    0x0000288f      0x356 src/main.o
+ .debug_line    0x00002be5      0x24c src/stm32f30x_it.o
+ .debug_line    0x00002e31      0x161 src/usb_istr.o
+ .debug_line    0x00002f92      0x18a src/system_stm32f30x.o
+ .debug_line    0x0000311c      0x1fe src/usb_pwr.o
+ .debug_line    0x0000331a       0x74 src/startup_stm32f30x.o
 
-.debug_str      0x00000000     0x2e5a
+.debug_str      0x00000000     0x2e67
  .debug_str     0x00000000      0x3c2 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_misc.o
                                 0x423 (size before relaxing)
  .debug_str     0x000003c2      0x626 Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
@@ -2734,23 +2737,23 @@ OUTPUT(stm32f3.elf elf32-littlearm)
                                 0x262 (size before relaxing)
  .debug_str     0x00001eca       0xcc src/usb_desc.o
                                 0x290 (size before relaxing)
- .debug_str     0x00001f96       0x5a src/usb_endp.o
-                                0x21e (size before relaxing)
- .debug_str     0x00001ff0      0x5fd src/hw_config.o
+ .debug_str     0x00001f96      0x114 src/usb_endp.o
+                                0x21c (size before relaxing)
+ .debug_str     0x000020aa      0x5fd src/hw_config.o
                                 0xc53 (size before relaxing)
- .debug_str     0x000025ed      0x23d src/usb_prop.o
+ .debug_str     0x000026a7      0x23d src/usb_prop.o
                                 0x99c (size before relaxing)
- .debug_str     0x0000282a      0x169 src/stm32f3_discovery.o
+ .debug_str     0x000028e4      0x169 src/stm32f3_discovery.o
                                 0xaab (size before relaxing)
- .debug_str     0x00002993      0x25b src/main.o
-                                0xa4c (size before relaxing)
- .debug_str     0x00002bee      0x161 src/stm32f30x_it.o
+ .debug_str     0x00002a4d      0x1ae src/main.o
+                                0xa59 (size before relaxing)
+ .debug_str     0x00002bfb      0x161 src/stm32f30x_it.o
                                 0x383 (size before relaxing)
- .debug_str     0x00002d4f       0x34 src/usb_istr.o
+ .debug_str     0x00002d5c       0x34 src/usb_istr.o
                                 0x3ec (size before relaxing)
- .debug_str     0x00002d83       0x78 src/system_stm32f30x.o
+ .debug_str     0x00002d90       0x78 src/system_stm32f30x.o
                                 0x338 (size before relaxing)
- .debug_str     0x00002dfb       0x5f src/usb_pwr.o
+ .debug_str     0x00002e08       0x5f src/usb_pwr.o
                                 0x39f (size before relaxing)
 
 .comment        0x00000000       0x70
