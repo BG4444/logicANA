@@ -75,6 +75,7 @@ void HardFault_Handler(void)
   /* Go to infinite loop when Hard Fault exception occurs */
   while (1)
   {
+	  STM_EVAL_LEDOn(LED10);
   }
 }
 
@@ -88,6 +89,7 @@ void MemManage_Handler(void)
   /* Go to infinite loop when Memory Manage exception occurs */
   while (1)
   {
+	  STM_EVAL_LEDOn(LED10);
   }
 }
 
@@ -101,6 +103,7 @@ void BusFault_Handler(void)
   /* Go to infinite loop when Bus Fault exception occurs */
   while (1)
   {
+	  STM_EVAL_LEDOn(LED10);
   }
 }
 
@@ -114,6 +117,7 @@ void UsageFault_Handler(void)
   /* Go to infinite loop when Usage Fault exception occurs */
   while (1)
   {
+	  STM_EVAL_LEDOn(LED9);
   }
 }
 
@@ -124,6 +128,7 @@ void UsageFault_Handler(void)
   */
 void SVC_Handler(void)
 {
+
 }
 
 /**
@@ -133,6 +138,7 @@ void SVC_Handler(void)
   */
 void DebugMon_Handler(void)
 {
+
 }
 
 /**
@@ -153,11 +159,11 @@ void SysTick_Handler(void)
 {
   TimingDelay_Decrement();
   divider++;
-  if(divider==1)
+  if(divider==100)
   {
 	  divider=0;
 	  USBConnectTimeOut--;
-	  DataReady ++;
+//	  DataReady ++;
   }
 }
 
@@ -176,20 +182,6 @@ void EXTI0_IRQHandler(void)
 { 
   if ((EXTI_GetITStatus(USER_BUTTON_EXTI_LINE) == SET)&&(STM_EVAL_PBGetState(BUTTON_USER) != RESET))
   {
-    /* Delay */
-    for(i=0; i<0x7FFFF; i++);
-    
-    /* Wait for SEL button to be pressed  */
-    while(STM_EVAL_PBGetState(BUTTON_USER) != RESET); 
-    /* Delay */
-    for(i=0; i<0x7FFFF; i++);
-    UserButtonPressed++;
-    
-    if (UserButtonPressed > 0x1)
-    {
-      UserButtonPressed = 0x0;
-    }
-    
     /* Clear the EXTI line pending bit */
     EXTI_ClearITPendingBit(USER_BUTTON_EXTI_LINE);
   }

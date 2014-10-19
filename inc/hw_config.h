@@ -36,8 +36,6 @@
 
 //__IO uint32_t Receive_length;
 
-__IO uint8_t Receive_Buffer[64];
-uint32_t Send_length;
 
 
 
@@ -64,8 +62,6 @@ void USB_Interrupts_Config(void);
 void USB_Cable_Config (FunctionalState NewState);
 
 void Get_SerialNum(void);
-uint32_t CDC_Send_DATA (uint8_t *ptrBuffer, uint8_t Send_length);
-uint32_t CDC_Receive_DATA(void);
 
 
 #endif  /*__HW_CONFIG_H*/

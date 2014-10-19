@@ -74,7 +74,7 @@ You can find more details in the reference manual
 /* buffer table base address */
 #define BTABLE_ADDRESS      (0x00)
 
-
+#define SOF_CALLBACK
 
 /*
  *
