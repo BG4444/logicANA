@@ -29,4 +29,6 @@ block* consume(ringBuffer* rb);
 block* getCurrent(ringBuffer* rb);
 
 void commitCurrent(ringBuffer* rb);
+
+int32_t getReadyCount(ringBuffer* rb);
 #endif /* INC_RINGBUFFER_H_ */

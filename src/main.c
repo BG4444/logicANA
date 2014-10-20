@@ -4,6 +4,7 @@
 #include "stm32f30x.h"
 #include<stm32f30x_rcc.h>
 #include "ringBuffer.h"
+#include "mem.h"
 
 
 __IO uint32_t overflow=0;
@@ -15,12 +16,14 @@ __IO uint32_t USBConnectTimeOut = 100;
 __IO uint32_t tickcounter=0;
 
 volatile block allMem[100];
+volatile block sendBase[10];
 
 volatile ringBuffer rb;
+volatile ringBuffer sendBuf;
 
 void resetRecv()
 {
-	initRingBuffer(&rb,100,allMem);
+	initRingBuffer(&rb,BUFSIZE,allMem);
 	tickcounter=0;
 }
 
@@ -39,6 +42,7 @@ void initUSB (void)
 int main(void)
 {
     resetRecv();
+    initRingBuffer(&sendBuf,10,&sendBase);
 	RCC_ClocksTypeDef RCC_Clocks;
 	/* SysTick end of count event each 50us */
 	RCC_GetClocksFreq(&RCC_Clocks);

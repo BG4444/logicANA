@@ -23,10 +23,25 @@ block* getCurrent(ringBuffer* rb)
 	return(&rb->first[rb->tail%rb->size]);
 }
 
+
+int32_t getReadyCount(ringBuffer* rb)
+{
+	int32_t count=(rb->tail-rb->head) % rb->size;
+	if(count < 0)
+	{
+		count+=rb->size;
+	}
+	return(count);
+
+}
+
 void commitCurrent(ringBuffer* rb)
 {
-	if( ( (rb->tail-rb->head) % rb->size) <(rb->size-1))
+	int32_t count=getReadyCount(rb);
+	if ( count <(rb->size-1))
 	{
 		rb->tail=(rb->tail+1)%rb->size;
+		count++;
 	}
+	return;
 }

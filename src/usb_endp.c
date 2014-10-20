@@ -8,6 +8,7 @@
 #include <core_cmInstr.h>
 #include "ringBuffer.h"
 #include "assert.h"
+#include "mem.h"
 
 
 /* Interval between sending IN packets in frame number (1 frame = 1ms) */
@@ -17,59 +18,58 @@ extern __IO uint32_t overflow;
 
 bool sending=0;
 
-char sendBuf[VIRTUAL_COM_PORT_DATA_SIZE];
+int32_t send_count=0;
 
-bool sendBufReady=0;
+extern ringBuffer sendBuf;
+
+void fill(block* start,int i)
+{
+	if(i<VIRTUAL_COM_PORT_DATA_SIZE-2)
+	{
+		start->data[VIRTUAL_COM_PORT_DATA_SIZE-2]='\r';
+		start->data[VIRTUAL_COM_PORT_DATA_SIZE-1]='\n';
+		for(;i<VIRTUAL_COM_PORT_DATA_SIZE-2;i++)
+		{
+			start->data[i]='Z';
+		}
+	}
+}
 
 bool uartSend(const char* bytes,uint8_t len)
 {
 	int i=0;
+	block* sb=getCurrent(&sendBuf);
 	for(;i<len;i++)
 	{
-		sendBuf[i]=bytes[i];
+		sb->data[i]=bytes[i];
 	}
-	if(i<VIRTUAL_COM_PORT_DATA_SIZE-2)
-		{
-			sendBuf[VIRTUAL_COM_PORT_DATA_SIZE-2]='\r';
-			sendBuf[VIRTUAL_COM_PORT_DATA_SIZE-1]='\n';
-			for(;i<VIRTUAL_COM_PORT_DATA_SIZE-2;i++)
-			{
-				sendBuf[i]='Z';
-			}
-		}
-	sendBufReady=1;
+	fill(sb,i);
+	commitCurrent(&sendBuf);
 	return(1);
 }
 
 bool uartSendString(const char* bytes)
 {
 	int i=0;
+	block* sb=getCurrent(&sendBuf);
 	for(;bytes[i];i++)
 	{
-		sendBuf[i]=bytes[i];
+		sb->data[i]=bytes[i];
 	}
-	if(i<VIRTUAL_COM_PORT_DATA_SIZE-2)
-	{
-		sendBuf[VIRTUAL_COM_PORT_DATA_SIZE-2]='\r';
-		sendBuf[VIRTUAL_COM_PORT_DATA_SIZE-1]='\n';
-		for(;i<VIRTUAL_COM_PORT_DATA_SIZE-2;i++)
-		{
-			sendBuf[i]='Z';
-		}
-	}
-	sendBufReady=1;
+	fill(sb,i);
+	commitCurrent(&sendBuf);
 	return(1);
 }
 
 extern volatile ringBuffer rb;
 
-volatile uint32_t count=0;
+volatile int32_t count=0;
 
 
 void SOF_Callback(void)
 {
   //  static uint32_t FrameCount = 0;
-    if(bDeviceState == CONFIGURED)
+		if(bDeviceState == CONFIGURED)
     {
       //  if (FrameCount++ == VCOMPORT_IN_FRAME_INTERVAL)
     	if(!sending)
@@ -80,13 +80,16 @@ void SOF_Callback(void)
             /* Check the data to be sent through IN pipe */
     		sending=1;
 
+    		int32_t send_count=getReadyCount(&sendBuf);
 
-            if(sendBufReady)
+            if(send_count)
             {
-            	UserToPMABufferCopy((unsigned char*)sendBuf, ENDP1_TXADDR, VIRTUAL_COM_PORT_DATA_SIZE);
+            	block* current=consume(&sendBuf);
+            	UserToPMABufferCopy((unsigned char*)current->data, ENDP1_TXADDR, VIRTUAL_COM_PORT_DATA_SIZE);
 				SetEPTxCount(ENDP1, VIRTUAL_COM_PORT_DATA_SIZE);
 				SetEPTxValid(ENDP1);
 				STM_EVAL_LEDOff(LED4);
+				send_count--;
             }
             else
             {
@@ -116,7 +119,6 @@ void EP1_IN_Callback (void)
 	{
 		sending=0;
 		STM_EVAL_LEDOff(LED5);
-		sendBufReady=0;
 	}
 }
 static uint8_t Receive_Buffer[VIRTUAL_COM_PORT_DATA_SIZE];
@@ -131,11 +133,9 @@ void EP3_OUT_Callback(void)
   			{
   				case 'g':
   				{
-  					if(!count&&(!sendBufReady))
+  					if(!count)
   					{
-						const int head=rb.head;
-						const int tail=rb.tail;
-						count=(tail-head)%(rb.size);
+						count=getReadyCount(&rb);
 						uartSend(&count,4);
 						STM_EVAL_LEDOn(LED4);
 						STM_EVAL_LEDOn(LED5);
@@ -156,7 +156,6 @@ void EP3_OUT_Callback(void)
 				}
   				case 'r':
   				{
-  					if(!count&&(!sendBufReady))
   					{
 						ASSERT(uartSendString("RESET\r\n"));
 						resetRecv();
