@@ -15,15 +15,11 @@ typedef struct _deque
 {
 	dequeNode* head;
 	dequeNode* tail;
-	dequeNode* preTail;
-	uint32_t count;
 } deque;
 
 
-dequeNode* dequeAdd(volatile deque* deq);
-dequeNode* dequeGet(volatile deque* deq);
-void newDeq(volatile deque* deq);
+dequeNode* newDeq(volatile deque* deq);
 void killDeq(volatile deque* deq);
-
+void connect(volatile deque* deq,dequeNode* newTail);
 
 #endif

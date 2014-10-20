@@ -5,8 +5,6 @@
 
 #include <stm32f30x_it.h>
 
-#define ASSERT(n) if(!(n)) {HardFault_Handler();}
-
 #define BUFSIZE (256)
 
 extern dequeNode allMem[BUFSIZE];
